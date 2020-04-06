@@ -1,0 +1,100 @@
+/*Configurações Globais da Página*/
+
+body {
+    margin: 0;
+    background: #e5e5e5;
+    color: #25282b;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    margin: 0;
+}
+
+.conteudo a {
+    text-decoration: none;
+    color: #ff5e84;
+    transition: 400ms;
+}
+
+.descricao {
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.conteudo a:hover {
+    font-weight: bold;
+    transition: 400ms;
+
+}
+
+/*Configurações da Intro*/
+
+#container {
+    width: 80%;
+    max-width: 980px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+}
+
+#intro {
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+    align-self: center;
+}
+
+main {
+    margin: 32px 0;
+    font-size: 14px;
+    letter-spacing: 0.8;
+    line-height: 1.5;
+}
+
+
+.ideias {
+    display: flex;
+    margin-bottom: 32px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 16px -8px #000;
+    transition: 600ms;
+}
+
+.ideias:hover {
+    background: #e5e5e5;
+    transition: 600ms;
+}
+
+.ideias img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+
+
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #25282b;
+    transition: 500ms;
+}
+
+footer a:hover {
+    font-weight: bold;
+    font-size: 20px;
+    transition: 500ms;
+}
+
+
