@@ -19,10 +19,17 @@ h3 {
 }
 
 .descricao {
-    text-align: justify;
     margin-bottom: 10px;
+    text-align: justify;
     line-height: 25px;
+    transition: 500ms;
 }
+
+.descricao:hover {
+    transition: 500ms;
+}
+
+
 
 .conteudo a:hover {
     font-weight: bold;
@@ -58,6 +65,7 @@ main {
 
 
 .ideias {
+
     display: flex;
     margin-bottom: 32px;
     background-color: #fff;
