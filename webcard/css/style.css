@@ -64,11 +64,14 @@ h3 {
 }
 
 .descricao {
+    width: 94%;
     margin-bottom: 10px;
     text-align: justify;
     line-height: 20px;
     transition: 500ms;
+    padding: 10px;
     font-size: 14px;
+
 }
 
 .descricao:hover {
@@ -102,7 +105,7 @@ h3 {
 
 main {
     margin: 32px 0;
-    font-size: 14px;
+    font-size: 13px;
     letter-spacing: 0.8;
     line-height: 1.5;
     margin-top: -40px;
