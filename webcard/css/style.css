@@ -8,6 +8,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header img {
+    width: 350px ;
+    height:375px ;
+    transition: 500ms;
+}
+
+header img:hover {
+    background: url(../imagem/hover.png);
+    transition: 500ms;
+}
+
 h3 {
     margin: 0;
 }
@@ -21,8 +32,9 @@ h3 {
 .descricao {
     margin-bottom: 10px;
     text-align: justify;
-    line-height: 25px;
+    line-height: 20px;
     transition: 500ms;
+    font-size: 14px;
 }
 
 .descricao:hover {
@@ -41,26 +53,31 @@ h3 {
 
 #container {
     width: 80%;
-    max-width: 980px;
+    max-width: 960px;
     margin: 40px auto;
     padding: 20px;
     display: flex;
 }
 
 #intro {
+    margin-top: -150px;
     width: 350px;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 35px;
     align-self: center;
+    transition: 500ms;
 }
+
+
 
 main {
     margin: 32px 0;
     font-size: 14px;
     letter-spacing: 0.8;
     line-height: 1.5;
+    margin-top: -40px;
 }
 
 
@@ -97,11 +114,12 @@ footer a {
     text-decoration: none;
     color: #25282b;
     transition: 500ms;
+    font-size: 15px;
 }
 
 footer a:hover {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
     transition: 500ms;
 }
 
