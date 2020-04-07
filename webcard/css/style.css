@@ -64,12 +64,11 @@ h3 {
 }
 
 .descricao {
-    width: 94%;
+    width: 92%;
     margin-bottom: 10px;
     text-align: justify;
     line-height: 20px;
     transition: 500ms;
-    padding: 10px;
     font-size: 14px;
 
 }
@@ -105,7 +104,7 @@ h3 {
 
 main {
     margin: 32px 0;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 0.8;
     line-height: 1.5;
     margin-top: -40px;
@@ -133,13 +132,6 @@ main {
     height: 60px;
     margin-right: 20px;
 }
-
-.conteudo ul {
-    margin: 0;
-}
-
-
-
 
 footer {
     text-align: center;
