@@ -62,7 +62,7 @@ header img:hover {
 }
 
 .ideias {
-    min-width: 400px;
+    min-width: 350px;
     width: 50%;
     display: flex;
     background-color: #fff;
@@ -84,13 +84,13 @@ header img:hover {
 .descricao {
     width: 92%;
     margin-bottom: 10px;
-    text-align: justify;
     line-height: 20px;
     letter-spacing: 0.9;
     transition: 500ms;
     font-size: 14px;
 
 }
+
 
 .conteudo a {
     text-decoration: none;
