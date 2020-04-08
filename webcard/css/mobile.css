@@ -7,7 +7,7 @@ body {
 }
 
 #container-mobile {
-    width: auto;
+    width: 80%;
     height: auto;
     margin: 20px auto;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 #intro {
-    width: auto;
+    width: 350px;
     text-align: center;
     padding: 5px;
     text-align: center;
