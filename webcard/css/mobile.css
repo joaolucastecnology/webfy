@@ -13,8 +13,7 @@ body {
 }
 
 #menu {
-    width: 80%;
-    max-width: 980px;
+    width: 350px;   
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -52,7 +51,7 @@ body {
 
 header img {
     width: 350px ;
-    height:375px ;
+    height:350px ;
     transition: 500ms;
 }
 
