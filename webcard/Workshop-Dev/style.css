@@ -1,0 +1,337 @@
+/*Responsavel por receber os estilos da pagina (Design = Folhas de estilo)*/
+
+body {
+    background: #e5e5e5;
+    color: #25282b;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body.hideScroll {
+    overflow: hidden;
+}
+
+
+
+#container {
+    width: 80%;
+    max-width: 980px;
+    margin: 40px auto;
+    display: flex;
+}
+
+/*Configurações Globais*/
+
+
+a {
+    color: #ff5e84;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p, .description {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3;
+}
+
+.button {
+    background: #ff5e84;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0px 8px 16px rgba(255,0,92,0.16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+   
+}
+
+.button:hover {
+    background-color: #0984e3;
+    text-decoration: none;
+}
+
+
+/* Configuracao da Intro */
+
+#intro {
+    width: 300px;
+    margin-right: 64px;
+}
+
+#buttons {
+    display: flex;
+    margin-bottom: 32px;
+    justify-content: space-evenly;
+    
+}
+
+main {
+    margin: 32px 0;
+}
+
+button {
+    border: none;
+    color: #ff5e84;
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0.2;
+    transition: 400ms;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+
+
+footer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+footer a {
+    opacity: 0.7;
+}
+
+
+#buttons, footer {
+    text-align: center;
+    
+}
+
+
+/*Configuraçoes do Last-Ideas*/
+
+.idea {
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px #000;
+    display: flex;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.idea img {
+    width: 60px;
+    height: 60px;
+    margin-right: 32px;
+}
+
+.idea h3 {
+    margin: 0;
+}
+
+.idea p {
+    color: #777;
+    margin: 8px 0
+}
+
+.idea .description {
+    margin: 16px 0;
+
+}
+
+/*Configuração do Formulario
+    Modal
+*/
+
+#modal {
+    background: #ff5e84;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: 500ms;
+}
+
+#modal .content {
+    margin-top: 5%;
+    color: #fff;
+}
+
+#modal.addScroll {
+    overflow: auto;
+}
+
+#modal .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#modal form {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.content form div:nth-child(3),
+.content form div:nth-child(4),
+.content form div:nth-child(5) {
+    grid-column: span 2;
+}
+
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(141,25,52,0.5);
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form label {
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.8;
+}
+
+form a {
+    width: 150px;
+    height: 40px;
+    background-color: #ffffff22;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 400ms;
+}
+
+form a:hover {
+    background:#fff;
+    color: #ff5e84;
+    text-decoration: none;
+}
+
+form button {
+    background: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 32px;
+    grid-column: 2;
+    justify-self: end;
+}
+
+form button:hover {
+    background-color: #0984e3;
+    color: #fff;
+    text-decoration: none;
+}
+
+#modal.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/*ideias.html*/
+
+
+#page-ideas #container {
+    display: block;
+}
+
+#page-ideas header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-ideas nav {
+    display: flex;
+    align-items: center;
+}
+
+#page-ideas nav li {
+    list-style-type: none;
+    margin-right: 16px;
+}
+
+#page-ideas nav li a {
+    color: #25282b;
+}
+
+#page-ideas nav li:last-child {
+    margin: 0;
+}
+
+
+#page-ideas nav li:last-child a {
+    width: 150px;
+    height: 40px;
+    background-color: #ff5e84;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+#page-ideas nav li:last-child a:hover {
+    background-color: #0984e3;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section#title {
+    text-align: center;
+
+}
+
+section#title p {
+    opacity: 0.7;
+    margin: 0;
+}
+
+section#title h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+section#ideas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+}
+
+section#ideas .idea {
+    margin: 0;
+}
+
+section#title,
+section#ideas,
+footer {
+    margin-top: 64px;
+}
