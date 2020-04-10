@@ -28,12 +28,16 @@ p, h1, h2, h3, h4, h5 {
 }
 
 #perfil {
-    background-color: rgb(67, 94, 243);
+    background-color: rgba(67, 94, 243,0.7);
     width: 40%;
     text-align: center;
     padding: 20px;
     border-radius: 8px;
     margin-right: 30px;
+}
+
+#perfil:hover {
+    background-color: rgb(67, 94, 243) ;
 }
 
 #perfil img {
@@ -46,7 +50,8 @@ p, h1, h2, h3, h4, h5 {
     letter-spacing: 0.5;
     line-height: 22px;
     font-size: 16px;
-    color: #cecece;
+    color: #ece8f7ce;
+    opacity: 1;
     text-align: justify;
     border-bottom: 1px solid white;
 }
@@ -68,6 +73,9 @@ nav a {
     color: #fff;
     text-decoration: none;
     transition: 500ms;
+    display: block;
+    background: url(https://image.flaticon.com/icons/svg/1179/1179318.svg) no-repeat right;
+    background-size: 28px;
 }
 
 nav a:hover {
@@ -78,14 +86,19 @@ nav a:hover {
 
 nav ul {
     transition: 500ms;
+    
 }
 
 #ideias {
     width: 50%;
     text-align: center;
-    background-color: rgb(67, 94, 243);
+    background-color: rgba(67, 94, 243,0.7);
     padding: 20px;
     border-radius: 8px;
+}
+
+#ideias:hover {
+    background-color: rgb(67, 94, 243) ;
 }
 
 #ideias img {
