@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+    background: url(https://image.freepik.com/vetores-gratis/abstrato-branco-em-estilo-de-papel-3d_23-2148398981.jpg) fixed no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+h3 {
+    opacity: 0.8;
+    color: #fff;
+}
+
+p {
+    opacity: 0.8;
+    color: #fff;
+    font-weight: bold;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+#container {
+    width: 980px;
+    margin: 5% auto;
+}
+
+#perfil {
+    background-color: rgb(67, 94, 243);
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+}
+
+#perfil img {
+    width: 150px;
+    height: 150px;;
+    border-radius: 75px;
+}
+
+.descricao {
+    letter-spacing: 0.5;
+    line-height: 22px;
+    font-size: 16px;
+    color: #cecece;
+    text-align: justify;
+    border-bottom: 1px solid white;
+}
+
+#navegacao {
+    letter-spacing: 0.5;
+    line-height: 22px;
+    font-size: 16px;
+    color: #cecece;
+    text-align: justify;
+    margin-top: 50px;
+    transition: 500ms;
+}
+
+nav a {
+    letter-spacing: 0.5;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    transition: 500ms;
+}
+
+nav ul {
+    transition: 500ms;
+}
+
+#ideias {
+    width: 50%;
+    text-align: center;
+    background-color: rgb(67, 94, 243);
+    padding: 20px;
+    border-radius: 0 8px 8px 0px;
+}
+
+#conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    transition: 500ms;
+}
+
+footer a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    transition: 500ms;
+}
+
+footer a:hover {
+    font-weight: bold;
+    font-size: 18px;
+    transition: 500ms;
+}
