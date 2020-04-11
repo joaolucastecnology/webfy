@@ -1,0 +1,97 @@
+/* CONFIGURACOES GLOBAIS */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/2058946/pexels-photo-2058946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed no-repeat center;
+    background-size: cover;
+    font-family: 'Maven Pro', sans-serif;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p, H1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: auto;
+    margin:0;
+}
+
+header {
+    width: 100vw;
+    color: #fff;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+header h4 {
+    font-size: 23px;
+}
+
+#menu1 { 
+    width: 400px;
+    margin: 50px 20px;
+    background-color: rgba(255,255,255,0.3);
+    padding: 1px;
+    text-align: left;
+    margin-bottom: 100px;
+    transition: 500ms;
+}
+
+#menu1 a {
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    line-height: 50px;
+    letter-spacing: 0.8;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-indent: 30px;
+    transition: 500ms;
+}
+
+#menu1 a:hover {
+    background-color: rgba(255,255,255,0.3);
+    transition: 500ms;
+}
+
+footer {
+    color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: 500ms;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 500ms;
+}
+
+
+
