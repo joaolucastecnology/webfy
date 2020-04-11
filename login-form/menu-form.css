@@ -35,25 +35,25 @@ header {
 .voltar {
     width: 120px;
     height: 30px;
-    background-color: rgba(255,255,255,0.4);
     margin-left: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(https://image.flaticon.com/icons/svg/60/60577.svg) no-repeat left center;
-    background-size:20px;
+    padding: 5px;
+
 }
 
 a.voltar {
     text-decoration: none;
     color: #fff;
     transition: 500ms;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 8px;
 }
 
 a.voltar:hover {
     background-color: rgba(255,255,255,0.8);
-    color: #000;
-    font-weight: bold;
+    color: #fff;
     font-size: 18px;
     transition: 500ms;
 }
@@ -100,7 +100,7 @@ header h4 {
 footer {
     color: #fff;
     background-color: rgba(255,255,255,0.5);
-    padding: 5px;
+    padding: 8px;
     position: fixed;
     bottom: 0;
     right: 0;
@@ -113,7 +113,6 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
     color: #000;
     font-weight: bold;
     font-size: 18px;
