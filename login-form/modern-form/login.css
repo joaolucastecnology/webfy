@@ -1,0 +1,110 @@
+/*CONFIGURACOES GLOBAIS*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(fundo.png) fixed no-repeat;
+    background-size: cover;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 400;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    color: #fff;
+    opacity: 0.4;
+}
+
+
+#box-login {
+    width: 350px;
+    height: 380px;
+    margin: 10% auto;
+    text-align: center;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#box-login img {
+    width: 80px;
+    height: 80px;
+}
+
+fieldset {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: none;
+}
+
+fieldset input {
+    width: 90%;
+    height: 30px;
+    padding-left: 35px;
+}
+
+input.entrar, input.rec-senha {
+    width: 160px;
+    height: 35px;
+    border: none;
+    outline: none;
+    margin-right: 4px;
+}
+
+input.email {
+    background: #fff url(https://image.flaticon.com/icons/svg/1828/1828506.svg) no-repeat left;
+    background-size: 20px;
+    background-position: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    letter-spacing: 0.8;
+    outline: none;
+    border: none;
+}
+
+input.senha {
+    background: #fff url(https://www.flaticon.com/premium-icon/icons/svg/750/750221.svg) no-repeat left;
+    background-size: 20px;
+    background-position: 5px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 0.8;
+}
+
+input.entrar {
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(154, 82, 248);
+    transition: 500ms;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input.entrar:hover {
+    background-color: rgb(166, 132, 245);
+    transition: 500;
+}
+
+input.rec-senha {
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(164, 48, 168);
+    transition: 500ms;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input.rec-senha:hover {
+    background-color: rgb(188, 131, 235);
+    transition: 500;
+
+}
