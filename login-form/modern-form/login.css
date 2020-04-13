@@ -30,10 +30,12 @@ p, h1, h2, h3, h4, h5, h6, ul {
     padding: 0;
 }
 
-h4 {
+h4, p {
     color: #fff;
     opacity: 0.4;
 }
+
+
 
 
 #box-login {
@@ -49,8 +51,8 @@ h4 {
 }
 
 #box-login img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 
 fieldset {
