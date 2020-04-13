@@ -13,7 +13,6 @@ body {
 header {
     width: auto;
     height: 50px;
-    background-color: rgba(67, 94, 243,0.6);
     
     display: flex;
     justify-content: flex-end;
