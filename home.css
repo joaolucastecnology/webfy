@@ -5,6 +5,7 @@ body {
     background: url(https://image.freepik.com/vetores-gratis/abstrato-branco-em-estilo-de-papel-3d_23-2148398981.jpg) fixed no-repeat;
     background-size: cover;
     border-radius: 20px;
+    overflow: auto;
 }
 
 h3 {
@@ -22,6 +23,22 @@ p, h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
+header {
+    width: auto;
+    height: 50px;
+    background-color: rgba(67, 94, 243,0.6);
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    align-items: center;
+}
+
 #container {
     width: 980px;
     margin: 10% auto;
@@ -29,7 +46,7 @@ p, h1, h2, h3, h4, h5 {
 
 #perfil {
     background-color: rgba(67, 94, 243,0.7);
-    width: 40%;
+    width: 50%;
     text-align: center;
     padding: 20px;
     border-radius: 8px;

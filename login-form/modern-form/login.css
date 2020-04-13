@@ -10,6 +10,22 @@ body {
     transition: 2000ms
 }
 
+header {
+    width: auto;
+    height: 50px;
+    background-color: rgba(67, 94, 243,0.6);
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    align-items: center;
+}
+
 p, h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
