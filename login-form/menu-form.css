@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(https://images.pexels.com/photos/2058946/pexels-photo-2058946.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed no-repeat center;
+    background: url(fundo0.jpg) fixed no-repeat center;
     background-size: cover;
     font-family: 'Maven Pro', sans-serif;
     overflow: hidden;
@@ -104,6 +104,7 @@ footer {
     position: fixed;
     bottom: 0;
     right: 0;
+    font-size: 13px;
 }
 
 footer a {
@@ -115,7 +116,7 @@ footer a {
 footer a:hover {
     color: #000;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     transition: 500ms;
 }
 
