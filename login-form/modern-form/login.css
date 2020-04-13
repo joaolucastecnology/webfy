@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(fundo.png) fixed no-repeat;
+    background: url(fundo3.jpg) fixed no-repeat;
     background-size: cover;
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: 400;
@@ -31,8 +31,8 @@ p, h1, h2, h3, h4, h5, h6, ul {
 }
 
 h4, p {
-    color: #fff;
-    opacity: 0.4;
+    color: #000;
+    opacity: 0.6;
 }
 
 
@@ -102,7 +102,7 @@ input.senha {
 input.entrar {
     color: #fff;
     font-weight: 700;
-    background-color: rgb(154, 82, 248);
+    background-color: rgb(243, 89, 78);
     transition: 500ms;
     cursor: pointer;
     border-radius: 5px;
@@ -116,7 +116,7 @@ input.entrar:hover {
 input.rec-senha {
     color: #fff;
     font-weight: 700;
-    background-color: rgb(164, 48, 168);
+    background-color: rgb(29, 7, 6);
     transition: 500ms;
     cursor: pointer;
     border-radius: 5px;
@@ -126,4 +126,21 @@ input.rec-senha:hover {
     background-color: rgb(188, 131, 235);
     transition: 500;
 
+}
+
+footer {
+    text-align: center;
+    transition: 500ms;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+footer a:hover {
+    font-weight: bold;
+    transition: 500ms;
+    font-size: 18px;
 }
