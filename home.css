@@ -114,7 +114,7 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bold;
     transition: 500ms;
 }
