@@ -40,11 +40,11 @@ header img {
 
 #container {
     width: 980px;
-    margin: 10% auto;
+    margin: 5% auto;
 }
 
 #perfil {
-    background: url(https://image.freepik.com/fotos-gratis/pintura-azul-abstrata_53876-88652.jpg);
+    background: url(imagem/fundo-novo1.jpg);
     background-size: cover;
     background-color: rgba(67, 94, 243,0.7);
     width: 50%;
@@ -124,7 +124,7 @@ nav ul {
 }
 
 #ideias {
-    background: url(https://image.freepik.com/fotos-gratis/pintura-azul-abstrata_53876-88652.jpg) no-repeat;
+    background: url(imagem/fundo-novo1.jpg) no-repeat;
     background-size: cover;
     width: 50%;
     text-align: center;
