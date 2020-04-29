@@ -24,11 +24,16 @@ p, h1, h2, h3, h4, h5 {
 }
 
 header {
-    width: auto;
+    width: 100%;
+    max-width: 980px;
     height: 40px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 7px;
+    padding: 2px;
     
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 header img {
@@ -39,8 +44,10 @@ header img {
 }
 
 #container {
-    width: 980px;
+    width: 100%;
+    max-width: 960px;
     margin: 5% auto;
+    padding: 10px;
 }
 
 #perfil {
@@ -70,9 +77,9 @@ header img {
 .descricao {
     letter-spacing: 0.5;
     line-height: 22px;
-    font-size: 16px;
-    color: #ece8f7ce;
-    opacity: 0.8;
+    font-size: 1em;
+    color: #fff;
+    opacity: 0.7;
     text-align: justify;
     border-bottom: 1px solid white;
 }
@@ -93,20 +100,20 @@ header img {
 #navegacao {
     letter-spacing: 0.5;
     line-height: 22px;
-    color: #cecece;
+    color: #fff;
     text-align: justify;
     margin-top: 50px;
     transition: 500ms;
 }
 
+
 nav a {
     letter-spacing: 0.5;
     line-height: 25px;
-    font-size: 14px;
+    font-size: 0.9em;
     color: #fff;
-    opacity: 0.5;
     text-decoration: none;
-    transition: 500ms;
+    transition: 400ms;
     display: block;
 }
 
@@ -121,6 +128,12 @@ nav a:hover {
 nav ul {
     transition: 500ms;
     
+}
+
+a.underline {
+    text-decoration: underline;
+    letter-spacing: 0.9px;
+    color: #fff;
 }
 
 #ideias {

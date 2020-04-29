@@ -3,10 +3,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(fundo-novo1.jpg) fixed no-repeat center;
+    background: url(fundo-33.jpg) fixed no-repeat center;
     background-size: cover;
     font-family: 'Maven Pro', sans-serif;
-    overflow: hidden;
 }
 
 ul {
@@ -67,35 +66,38 @@ header img {
 }
 
 header h4 {
-    font-size: 23px;
+    font-size: 1.2em;
 }
 
 #menu1 { 
-    width: 400px;
+    width: 100%;
+    max-width: 300px;
     margin: 50px 20px;
     background-color: rgba(255,255,255,0.3);
-    padding: 1px;
-    text-align: left;
-    margin-bottom: 100px;
+    margin-bottom: 5%;
     transition: 500ms;
+    border-radius: 7px;
 }
 
-#menu1 a {
-    height: 50px;
+#menu1 nav a {
+    height: 100%;
+    max-height: 20px;
     text-decoration: none;
     display: flex;
-    line-height: 50px;
-    letter-spacing: 0.8;
+    line-height: 20px;
+    letter-spacing: 0.7;
     padding: 10px;
     color: #fff;
-    font-weight: bold;
     text-indent: 30px;
-    transition: 500ms;
+    transition: 300ms;
 }
 
 #menu1 a:hover {
     background-color: rgba(255,255,255,0.3);
     transition: 500ms;
+    color: #000;
+    border-radius: 7px;
+    font-weight: bold;
 }
 
 footer {
