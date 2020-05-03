@@ -1,0 +1,178 @@
+/*PARAMETROS GLOBAIS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: rgba(133, 9, 138, 0.788);
+    opacity: 0.5;
+}
+
+h2 {
+    color: rgba(133, 9, 138, 0.788);
+    opacity: 1;
+}
+
+body {
+    background:#cecece url(back.jpg) no-repeat fixed;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+}
+
+#container {
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+    margin: 5% auto;
+}
+
+/*PARAMETROS DA CAIXA DE LOGIN*/
+
+#caixa-login {
+    height: 500px;
+}
+
+section#login {
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*PARAMETROS CADASTRO*/
+
+#cadastro {
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    margin-right: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px -5px black;
+}
+
+
+#descricao {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+#cadastro a {
+    background-color: rgba(117, 6, 139, 0.966);
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 0.9px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#cadastro a:hover {
+    background-color: rgb(204, 15, 188);
+    color: #000;
+}
+
+/*PARAMETROS ENTRAR*/
+
+
+#entre {
+    width: 350px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px -5px black;
+}
+
+input {
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+}
+
+input.email {
+    width: 250px;
+    height: 30px;
+    padding-left: 40px;
+    margin-top: 20px;
+    background: url(https://image.flaticon.com/icons/svg/1828/1828453.svg) no-repeat;
+    background-size: 25px;
+    background-position: 7px;
+    border-bottom: 1px solid rgba(117, 6, 139, 0.966);
+    outline: none;
+}
+
+
+input.senha {
+    width: 250px;
+    height: 30px;
+    padding-left: 40px;
+    margin-top: 20px;
+    background: url(https://image.flaticon.com/icons/svg/1000/1000966.svg) no-repeat;
+    background-size: 25px;
+    background-position: 7px;
+    border-bottom: 1px solid rgba(117, 6, 139, 0.966);
+    outline: none;
+}
+
+input.entrar {
+    width: 80%;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 0.9px;
+    background-color: rgb(163, 14, 201);
+    color: #fff;
+    letter-spacing: 0.9px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+input.entrar:hover {
+    background-color: rgb(99, 10, 141);
+    color: #000;
+}
+
+footer#rodape1 {
+    margin-top: -110px;
+    text-align: center;
+    color: rgba(117, 6, 139, 0.966);
+    font-weight: bold;
+}
+
+footer#rodape1 a {
+    color: #000;
+    transition: 0.5s;
+    
+}
+
+footer#rodape1 a:hover {
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+footer#rodape2 {
+    margin-top: 50px;
+    text-align: center;
+    color: rgba(117, 6, 139, 0.966);
+    font-weight: bold;
+}
+
+footer#rodape2 a {
+    color: #000;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+footer#rodape2 a:hover {
+    font-size: 18px;
+    transition: 0.5s;
+}
