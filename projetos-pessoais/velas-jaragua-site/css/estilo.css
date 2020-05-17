@@ -1,0 +1,337 @@
+/*CONFIGURACOES GLOBAIS*/
+
+#container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 ,h6, p {
+    padding:0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+/*CONFIGURACAO TOPO*/
+
+header#topo {
+    opacity: 0.6;
+    width: 100%;
+    height: 125px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: rgba(36, 33, 32, 0.116);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px 70px;
+}
+
+header#topo h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.1em;
+
+}
+
+header#topo img {
+    width: 100px;
+    height: 100px;
+}
+
+/*CONFIGURACAO MENU*/
+
+nav#navegacao {
+    background: rgba(36, 33, 32, 0.116) ;
+    border-radius: 10px;
+}
+
+nav#navegacao ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav#navegacao ul li {
+    padding: 10px;
+    margin-left: 20px ;
+    transition: 300ms
+}
+
+nav#navegacao li a {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgba(15, 0, 0, 0.473);
+    font-weight: bold;
+    transition: 300ms;
+}
+
+nav#navegacao li:hover {
+    color: #fff;
+    background-color: rgba(77, 78, 78, 0.733);
+    transition: 300ms;
+    border-radius: 7px;
+}
+
+nav#navegacao a:hover {
+    color: #fff;
+}
+
+/*CONTEUDO - PAGINE HOME*/
+
+#conteudo {
+    background: rgba(36, 33, 32, 0.116);
+    margin: 10px auto;
+}
+
+.descricao {
+    width: 75%;
+    padding: 20px;
+    text-align: left;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+}
+
+.descricao h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.descricao p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 20px;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 10px;  
+}
+
+/*RODAPE*/
+
+#rodape {
+    background: rgba(36, 33, 32, 0.116);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+#rodape1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cecece;
+    line-height: 40px;
+}
+
+#rodape1 img {
+    width: 25px;
+    height: 25px;
+    line-height: 40px;
+}
+
+#end {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#devs {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    transition: 600ms;
+    
+}
+
+#devs a {
+    text-align: center;
+    transition: 600ms;
+    color: rgb(68, 66, 70);
+}
+
+#devs a:hover {
+    font-size: 15px;
+    transition: 600ms;
+    text-decoration: underline;
+    color: crimson;
+}
+
+/*CONTEUDO - PRODUTOS*/
+
+#conteudo-produtos {
+    border: 1px solid #cecece;
+    width: 960px;
+    margin: 10px auto;
+    text-align: center;
+    background: rgba(196, 191, 190, 0.116);
+    border-radius: 7px;
+    transition: 500ms;
+}
+
+
+.produtos ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+}
+
+#conteudo-produtos .box-produto li {
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    transition: 500ms;
+    box-sizing: border-box;
+}
+
+#conteudo-produtos .box-produto li:hover {
+    border: 2px solid #cecece;
+    transition: 500ms;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#conteudo-produtos .box-produto .desc-produto {
+    margin-top: 50px;
+}
+
+.produtos .desc-produto {
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #362222;
+    opacity: 0.7;
+}
+
+.produtos img {
+    height: 200px;
+}
+
+
+/*CONTATO-SITE*/
+
+#img-contato {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#img-contato img {
+    width: 100px;
+    height: 100px;
+}
+
+#contato {
+    margin: 10px 0;
+    width: 500px;
+}
+
+#dados fieldset {
+    border-radius: 7px;
+    border: 2px solid #ccc
+}
+
+#dados legend {
+    padding: 5px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(21, 3, 36);
+    font-weight: bold;
+}
+
+
+input {
+    margin-bottom: 15px;
+    background: #fff;
+    border: none;
+}
+
+#nome input {
+    width: 250px;
+    padding-left: 5px;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Lato', sans-serif;
+} 
+
+#email input {
+    width: 250px;
+    padding-left: 5px;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(16, 21, 26);
+    opacity: 0.6;
+    font-family: 'Lato', sans-serif;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+#btn-enviar input {
+    font-family: 'Lato', sans-serif;
+    margin-top: 15px;
+    width: 250px;
+    height: 35px;
+    background: #574CF9;
+    color: #fff;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+#btn-enviar input:hover {
+    background: #2113FA;
+    transition: 600ms;
+    color: #000;
+}
+
+
+body#home #navegacao li.home,
+body#produtos #navegacao li.produtos,
+body#contato-1 #navegacao li.contato-1 {
+    border-radius: 7px;
+    background-color: rgba(77, 78, 78, 0.733);
+    color: #fff;
+}
+
+body#home #navegacao li.home a,
+body#produtos #navegacao li.produtos a,
+body#contato-1 #navegacao li.contato-1 a {
+    cursor: text;
+}
+
+
+
+
+
+
+
+
