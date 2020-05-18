@@ -306,6 +306,7 @@ textarea {
     color: #fff;
     cursor: pointer;
     transition: 600ms;
+    border-radius: 5px;
 }
 
 #btn-enviar input:hover {
