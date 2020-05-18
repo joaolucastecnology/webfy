@@ -241,12 +241,13 @@ nav#navegacao a:hover {
 
 #contato {
     margin: 10px 0;
-    width: 500px;
 }
 
 #dados fieldset {
+    margin: 0 auto;
+    width: 97%;
     border-radius: 7px;
-    border: 2px solid #ccc
+    border: 2px solid #ccc;
 }
 
 #dados legend {
