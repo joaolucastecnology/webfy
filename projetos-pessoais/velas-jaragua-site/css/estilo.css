@@ -307,6 +307,7 @@ textarea {
     cursor: pointer;
     transition: 600ms;
     border-radius: 5px;
+    outline: none;
 }
 
 #btn-enviar input:hover {
