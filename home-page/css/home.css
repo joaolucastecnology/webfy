@@ -1,3 +1,21 @@
+@keyframes animation-perfil {
+    from {
+        width: 100px;
+        height: 100px;
+        border-radius: 75px;
+    }
+
+    to {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+    }
+}
+
+
+
+
+
 body, html {
     margin: 0;
     color: #000;
@@ -52,6 +70,12 @@ h2, h3 {
 }
 
 .caixa1 .conteudo-caixa1 img {
+
+    animation-name: animation-perfil;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     width: 100px;
     height: 100px;
     border-radius: 75px;
