@@ -113,6 +113,10 @@ section.conteudo ul li {
 
 /*CONFIGURACOES FORMULARIO*/
 
+#titulo-form h3 {
+    font-family: 'Karla', sans-serif;
+}
+
 fieldset {
     border: 2px solid rgb(44, 41, 66);
     border-radius: 5px;
