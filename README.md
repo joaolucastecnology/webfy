@@ -22,4 +22,4 @@
 
 ## Projetos de Aprendizagem
 
-<a href="https://joaolucastecnology.github.io/webfy/login-form/modern-form/login.html" target="_blank">Universidade UNES - Site Fictício e estático</a>
+<a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/universidade-unes/index.html" target="_blank">Universidade UNES - Site Fictício e estático</a>
