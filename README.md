@@ -23,3 +23,14 @@
 ## Projetos de Aprendizagem
 
 <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/universidade-unes/index.html" target="_blank">Universidade UNES - Site Fictício e estático</a>
+
+
+## Algoritmo Python
+
+### Iniciante
+
+> Uma calculadora feita para supermercado para executar calculos simples, com condições totalmente basicas, testando simples conhecimentos
+
+> Disponível no repositório 
+
+<a href="https://calculos.joaolucaslucas.repl.run/" target="_blank">Python Calculator </a>
