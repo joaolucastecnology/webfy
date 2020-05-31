@@ -24,6 +24,8 @@
 
 <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/universidade-unes/index.html" target="_blank">Universidade UNES - Site Fictício e estático</a>
 
+<a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/noticias-cidade/index.html" target="_blank">Noticias Cidade - Site Fictício e estático</a>
+
 
 ## Algoritmo Python
 
