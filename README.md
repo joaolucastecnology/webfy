@@ -28,7 +28,7 @@
 
 ## Next Level Week RocketSeat - Iniciante
  > Site em Construção
- > Aprendendo sobre desenvolvimento moderno, Resposividade, Tricks Css, e Organização
+ > Aprendendo sobre desenvolvimento moderno, Responsividade, Tricks Css, e Organização
  
  * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/NLW-ROCKETSEAT/index.html" target="_blank">Site Ecoleta</a>
  
