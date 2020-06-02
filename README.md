@@ -1,6 +1,5 @@
-# João Lucas Melo
+# Desenvolvimento Web
 
-## Desenvolvimento Web
 
 ### Iniciante
 > em constante evolução sobre boas práticas e código limpo
