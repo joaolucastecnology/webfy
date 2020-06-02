@@ -28,11 +28,11 @@
 
 ## Next Level Week RocketSeat - Iniciante
  > Site em Construção
-
- * Ecoleta
  > Aprendendo sobre resposividade, Tricks Css, e organização
-
- <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/NLW-ROCKETSEAT/index.html" target="_blank">Ecoleta</a>
+ 
+ <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/NLW-ROCKETSEAT/index.html" target="_blank">Site Ecoleta</a>
+ 
+ 
 
 
 
