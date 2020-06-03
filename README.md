@@ -30,6 +30,13 @@
  > Aprendendo sobre desenvolvimento moderno, Responsividade, Tricks Css, e Organização
  
  * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/NLW-ROCKETSEAT/index.html" target="_blank">Site Ecoleta</a>
+  > Página Inicial Ecoleta
+  > Aula 1
+
+ * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/NLW-ROCKETSEAT/create-point.html" target="_blank">Site Ecoleta</a>
+  > Deixando Estados e Cidades Dinamicos para escolha, sendo populado via API
+  > Aula 2
+ 
  
  
 
