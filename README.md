@@ -21,9 +21,11 @@
 
 ## Projetos de Aprendizagem
 
-<a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/universidade-unes/index.html" target="_blank">Universidade UNES - Site Fictício e estático</a>
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/universidade-unes/index.html" target="_blank">Universidade UNES - Site Fictício e estático</a>
 
-<a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/noticias-cidade/index.html" target="_blank">Noticias Cidade - Site Fictício e estático</a>
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/noticias-cidade/index.html" target="_blank">Noticias Cidade - Site Fictício e estático</a>
+
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/museu-nacional/index.html" target="_blank">Museu Nacional - Site Fictício e estático</a>
 
 ## Next Level Week RocketSeat - Iniciante
  > Site em Construção
