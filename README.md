@@ -9,10 +9,6 @@
 > Página criada para testar conhecimentos e evoluções de aprendizado, nesta minha recente entrada no mundo de Desenvolvimento Web
 
 
-* <a href="https://joaolucastecnology.github.io/webfy/login-form/modern-form/login.html" target="_blank">Exemplo de Login 1</a>
-
-* <a href="https://joaolucastecnology.github.io/webfy/login-form/modern-forn2/login.html" target="_blank">Exemplo de Login 2</a>
-
 ## Projetos de Aprendizagem
 
 * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/universidade-unes/index.html" target="_blank">Universidade UNES - Site Fictício e estático</a>
