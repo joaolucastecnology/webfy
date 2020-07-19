@@ -8,6 +8,14 @@
     border-bottom: 1px solid #e5e5e5;
 }
 
+.caixa2 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.espaco-baixo {
+    margin-bottom: 80px;
+}
+
 footer p a {
     margin: 5px 15px;
 }
