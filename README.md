@@ -18,7 +18,12 @@
 * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/museu-nacional/index.html" target="_blank">Museu Nacional - Site Fictício e estático</a>
 
 ### Usando as Tecnologias (HTML, CSS, Bootstrap Intermediario)
- * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/finans/index.html" target="_blank">Finans - Finanças Pessoais
+
+#### Projeto Website Finans (Educacional)
+ * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/finans/index.html" target="_blank">
+
+ #### Projeto Website Spotify Clone (Educacional) - em desenvolvimento
+ * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/Spotify/index.html" target="_blank">
  
 
 
