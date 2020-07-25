@@ -155,6 +155,13 @@ footer ul li {
     margin: 0 5px;
 }
 
+.credito a {
+    color: #fff;
+    font-size: 0.8em;
+    text-decoration: none;
+    opacity: 0.1;
+
+}
 
 
 
