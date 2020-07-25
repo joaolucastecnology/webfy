@@ -23,7 +23,7 @@
 * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/finans/index.html" target="_blank">Website - Finans</a>
 
 #### Projeto Website Spotify Clone (Educacional)
-* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/Spotify/index.html" target="_blank">Website - Spotify Clone em desenvolvimento</a>
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/Spotify/index.html" target="_blank">Website - Spotify Clone - Educacional</a>
 
 
  
