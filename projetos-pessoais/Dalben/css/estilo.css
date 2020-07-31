@@ -1,0 +1,180 @@
+/*
+cabecalho
+*/
+
+.divisor {
+    border-bottom: 1px dashed #cecece;
+    padding-bottom: 30px;
+}
+
+header {
+    background-color:#333333 ;
+}
+
+header img {
+    width: 25%;
+}
+
+/*
+navbar
+*/
+
+.nav-color {
+    background-color:#4d4d4d ;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+button.navbar-toggler {
+    border: 1px solid #fff;
+    outline: none;
+}
+
+
+/*
+Imagem responsiva
+*/
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+
+
+/*
+carousel
+*/
+.carousel-control-next, .carousel-control-prev {
+    width: 5;
+}
+
+/*
+formulario email
+*/
+
+
+
+section#form-db .font-xl {
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+section#form-db .font-sm {
+    font-size: 13px;
+    color: #4d4d4d;
+}
+
+/*
+Textos Seções
+*/
+
+section#no-dalben-tem .dalben-xl{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section#no-dalben-tem .dalben-sm{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+section#como-pagar .como-pagar-xl {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section#como-pagar .como-pagar-sm {
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+section#endereco {
+    background:#e5e5e5 ;
+}
+
+footer#rodape-db {
+    background:#4d4d4d;
+    padding: 50px;
+}
+
+footer#rodape-db ul li {
+    padding: 3px;
+}
+
+footer#rodape-db ul li a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer#rodape-db ul li a:hover {
+    color: #cecece;
+}
+
+/*
+listas
+*/
+
+#no-dalben-tem span {
+    font-size: 12px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+
+/*
+responsividade
+*/
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-bottom: 5px;
+    }
+
+    .img-response {
+        text-align: center;
+    }
+
+    .img-response img {
+        width: 50%;
+    }
+ }
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .img-response {
+        text-align: center;
+    }
+
+    .img-response img {
+        width: 50%;
+    }
+ }
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+    
+ }
