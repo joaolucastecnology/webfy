@@ -124,10 +124,14 @@
 
                         <!--Inicio Controles-->
                         <a href="#carousel-dalben" class="carousel-control-prev" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
+                            <span>
+                                <i class="fas fa-arrow-left fa-2x"></i>
+                            </span>
                         </a>
                         <a href="#carousel-dalben" class="carousel-control-next" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
+                            <span>
+                                <i class="fas fa-arrow-right fa-2x"></i>
+                            </span>
                         </a>
                         <!--Fim Controles-->
 
@@ -160,6 +164,7 @@
         </div>
     </section>
 
+    <!--Inicio Formulario Email-->
     <section id="form-db" class="mb-4">
         <div class="container divisor">
             <div class="row mb-4 mt-4">
@@ -183,14 +188,22 @@
                 </div>
             </div>
             <form action="">
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Seu Nome e Sobrenome">
-                    <input type="email" class="form-control ml-2" placeholder="Seu E-mail">
-                    <input type="button" value="Quero Receber as Ofertas" class="btn btn-primary ml-2">
+                <div class="row input-group input-group-lg">
+                    <div class="col-md-4 mb-3">
+                        <input type="text" class="form-control" placeholder="Seu Nome e Sobrenome" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <input type="email" class="form-control" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="w-100 btn btn-primary" type="submit" value="Quero Receber as ofertas">
+                    </div>
                 </div>
+                
             </form>
         </div>
     </section>
+    <!--Fim Formulario Email-->
 
     <section id="institucional">
         <div class="container divisor">
@@ -221,7 +234,7 @@
         </div>
     </section>
 
-    <section id="no-dalben-tem">
+    <section id="no-dalben-tem" class="mt-4">
         <div class="container divisor">
             <div class="row">
                 <div class="col-md-12">
@@ -302,7 +315,7 @@
         </div>
     </section>
 
-    <section id="como-pagar">
+    <section id="como-pagar" class="mt-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -316,38 +329,38 @@
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <p class="mt-4">
+                    <p class="mt-4 text-info">
                         Crédito
                     </p>
                     <img src="img-dalben/credito.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-3">
-                    <p class="mt-4">
+                    <p class="mt-4 text-info">
                         Débito
                     </p>
                     <img src="img-dalben/debito.png" alt="" class="img-fluid">
 
                 </div>
                 <div class="col-md-3">
-                    <p class="mt-4">
+                    <p class="mt-4 text-info">
                         Cartões de Alimentação
                     </p>
                     <img src="img-dalben/alimentacao.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-3">
-                    <p class="mt-4">
+                    <p class="mt-4 text-info">
                         Cartões de Refeição 
                     </p>
-                    <img src="img-dalben/refeicao.png" alt="" class="img-fluid">
+                    <img src="img-dalben/refeicao.png" alt="" class="img-fluid mb-4">
                 </div>
             </div>
 
-            <a href="" class="mb-4">Clique Aqui</a> <span>e veja mais detalhes sobre as nossas formas de pagamento.</span>
+            <a href="" class="mb-4 text-dark">Clique Aqui</a> <span class="text-info">e veja mais detalhes sobre as nossas formas de pagamento.</span>
         </div>
     </section>
     
-    <section id="endereco" class="p-4 mt-4">
-        <div class="container">
+    <section id="endereco" class="p-4 mt-4 ">
+        <div class="container ">
             <div class="row text-center">
                 <div class="col-md-3">
                     <strong>Loja 1 : Taquaral</strong>
@@ -461,9 +474,8 @@
                         Nossas ofertas agora também no seu celular.
                     </p>
                     <span class="text-center">
-                        <img src="img-dalben/celular.png" alt="" width="40">
-                        <img src="img-dalben/ios.png" alt="" width="100">
-                        <img src="img-dalben/android.png" alt="" width="100">
+                        <img src="img-dalben/ios.png" alt="" width="120" class="">
+                        <img src="img-dalben/android.png" alt="" width="120" class="ml-4">
                     </span>
                 </div>
                 <div class="row mt-4">

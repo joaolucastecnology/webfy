@@ -26,10 +26,14 @@ navbar
 .navbar-expand-md .navbar-nav .nav-link {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    padding: 3px 10px;
+    padding: 1px 20px;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    color: #cecece;
 }
 
 button.navbar-toggler {
@@ -54,7 +58,7 @@ Imagem responsiva
 carousel
 */
 .carousel-control-next, .carousel-control-prev {
-    width: 5;
+    width: 10%;
 }
 
 /*
@@ -88,6 +92,10 @@ section#no-dalben-tem .dalben-sm{
     opacity: 0.5;
 }
 
+section#no-dalben-tem span {
+    font-size: 13px;
+}
+
 section#como-pagar .como-pagar-xl {
     font-size: 20px;
     font-weight: bold;
@@ -105,7 +113,7 @@ section#endereco {
 
 footer#rodape-db {
     background:#4d4d4d;
-    padding: 50px;
+    padding: 30px;
 }
 
 footer#rodape-db ul li {
@@ -150,6 +158,8 @@ responsividade
     .img-response img {
         width: 50%;
     }
+
+
  }
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
