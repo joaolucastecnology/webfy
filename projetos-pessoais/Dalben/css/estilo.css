@@ -1,4 +1,14 @@
 /*
+configuracoes globais
+*/
+
+body {
+    font-family: Helvetica neue, sans-serif;
+}
+
+
+
+/*
 cabecalho
 */
 
@@ -37,9 +47,11 @@ navbar
 }
 
 button.navbar-toggler {
-    border: 1px solid #fff;
+    border: 1px solid #4d4d4d;
     outline: none;
 }
+
+
 
 
 /*
@@ -111,6 +123,10 @@ section#endereco {
     background:#e5e5e5 ;
 }
 
+/*
+Rodape
+*/
+
 footer#rodape-db {
     background:#4d4d4d;
     padding: 30px;
@@ -122,7 +138,6 @@ footer#rodape-db ul li {
 
 footer#rodape-db ul li a {
     color: #fff;
-    font-weight: 600;
     text-decoration: none;
 }
 
@@ -159,6 +174,26 @@ responsividade
         width: 50%;
     }
 
+    footer#rodape-db ul li {
+        text-align: center;
+    }
+
+    footer#rodape-db .text-responsive {
+        text-align: center;
+    }
+
+    section#endereco p {
+        font-size: 0.8em;
+    }
+
+    section#no-dalben-tem span {
+        font-size: 0.6em;
+    }
+
+    section#como-pagar p {
+        font-size: 0.8em;
+    }
+
 
  }
 
@@ -172,10 +207,31 @@ responsividade
     .img-response img {
         width: 50%;
     }
+
+    section#no-dalben-tem span {
+        text-align: center;
+    }
+
+    section#no-dalben-tem span {
+        font-size: 0.6em;
+    }
+
+
  }
 
 /* Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        font-size: 0.6em;
+    }
+
+    section#no-dalben-tem span {
+        font-size: 0.6em;
+    }
+
+    section#como-pagar p {
+        font-size: 0.8em;
+    }
 
 }
 
