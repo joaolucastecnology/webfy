@@ -25,6 +25,9 @@
 #### Projeto Website Spotify Clone (Educacional)
 * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/Spotify/index.html" target="_blank">Website - Spotify Clone - Educacional</a>
 
+#### Calculadora Utilizando JavaScript e Bootstrap
+> Usando apenas condicionais simples e funções com operadores de comparação, para ter as funcões basicas de uma calculadora
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/calculadora-js/index.html" target="_blank">Website - Spotify Clone - Educacional</a>
 
  
 
