@@ -1,0 +1,39 @@
+body {
+    background: #343a40;
+}
+
+header {
+    
+    font-family: 'Archivo', sans-serif;
+
+}
+
+/*
+Barra de navegacao Menu
+*/
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    text-transform: uppercase;
+    margin: 0 3rem;
+    font-size: 0.9rem;
+    color: rgb(6, 94, 116);
+    font-weight: bold;
+    transition: 2s;
+    padding-bottom: 10px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+    color: #fff;
+    border-bottom: 1px solid red;
+}
+
+/*
+Conteudo pagina Home
+*/
+
+section#conteudo1 p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #fff;
+    opacity: 0.5;
+}

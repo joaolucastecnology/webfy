@@ -29,6 +29,10 @@
 > Usando apenas condicionais simples e funções com operadores de comparação, para ter as funcões basicas de uma calculadora
 * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/calculadora-js/index.html" target="_blank">Website - Spotify Clone - Educacional</a>
 
+#### Conversor de Caracteres
+> Usando apenas condicionais simples e funções com operadores de comparação, para ter as funcões basicas.
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/App-Conversor/index.html" target="_blank">Site Conversor de Caracteres</a>
+
  
 
 
