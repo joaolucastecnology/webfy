@@ -31,7 +31,7 @@
 
 #### Conversor de Caracteres Simples
 > Usando apenas condicionais simples e funções com operadores de comparação.
-* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/conversor/index.html" target="_blank">Calculadora Javascript</a>
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/conversor/index.html" target="_blank">Caracter Converter</a>
 
 
  
