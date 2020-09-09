@@ -25,6 +25,10 @@
 > Usando apenas condicionais simples e funções com operadores de comparação.
 * <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/conversor/index.html" target="_blank">Caracter Converter</a>
 
+#### Calculadora Leve x Pague Y
+> Usando apenas condicionais simples e funções com operadores de comparação.
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/conversor/calc-supermarket.html" target="_blank">Calculadora Leve X Pague Y</a>
+
 
  
 
