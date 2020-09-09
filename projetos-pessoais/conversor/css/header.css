@@ -16,7 +16,7 @@ header {
 Barra de navegacao Menu
 */
 
-.navbar-expand-sm .navbar-nav .nav-link {
+.navbar-expand-sm .navbar-nav .nav-link, .dropdown {
     text-transform: uppercase;
     margin: 0 1.7rem;
     font-size: 0.8rem;
@@ -24,6 +24,10 @@ Barra de navegacao Menu
     font-weight: bold;
     transition: 2s;
     padding-bottom: 10px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link, .dropdown, .dropdown-item {
+    text-align: center;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link:hover {

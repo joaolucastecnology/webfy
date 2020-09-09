@@ -19,6 +19,7 @@ function calcularPromocao() {
         window.location.reload()
     }
 }
+    
 
 function limparCampos() {
     window.location.reload();
