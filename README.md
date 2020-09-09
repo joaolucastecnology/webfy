@@ -1,13 +1,5 @@
 # Desenvolvimento Web
 
-
-### Iniciante
-> em constante evolução sobre boas práticas e código limpo
-
-* <a href="https://joaolucastecnology.github.io/webfy/home-page/home.html" target="_blank"> Minha Pàgina Inicial</a>
-
-> Página criada para testar conhecimentos e evoluções de aprendizado, nesta minha recente entrada no mundo de Desenvolvimento Web
-
 ### Usando as Tecnologias Basicas, (HTML e CSS Intermediario)
 ## Projetos de Aprendizagem
 
