@@ -77,3 +77,21 @@ margin: 0;
 input {
     text-align: center;
 }
+
+#box-calc label {
+    font-family: 'Archivo', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#box-calc input {
+    color: #010008;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Archivo', sans-serif;
+}
+
+input#preco_prom {
+    
+}
