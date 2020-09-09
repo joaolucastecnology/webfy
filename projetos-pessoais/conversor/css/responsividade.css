@@ -1,0 +1,47 @@
+@media (max-width: 575.98px) { 
+    .btn {
+        font-size: 0.7rem;
+    }
+
+    .font-h3 {
+        font-size: 1.3rem;
+    }
+
+    #cabecalho {
+        border-top: 1px solid #1b1a1a4d;
+        padding: 20px;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #cabecalho {
+        border-top: 1px solid #1b1a1a4d;
+        padding: 20px;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+
+@media (min-width: 1200px) { 
+    footer {
+        border-top: 1px solid #221e1e41;
+        margin-top: 200px;
+        padding-top: 50px;
+    }
+ }

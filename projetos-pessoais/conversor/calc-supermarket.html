@@ -10,6 +10,7 @@
 
     <!--Estilo Personalizado-->
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/responsividade.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -17,8 +18,10 @@
     <!--Google Fontes-->
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
 
+    <script src="script/leve_x.js" defer></script>
 
-    <title>Melo Tools - Home</title>
+
+    <title>Melo Tools - Leve X Pague Y</title>
   </head>
   <body>
     <header id="home"> <!--Inicio Header-->
@@ -79,94 +82,82 @@
         </nav> <!--Fim Nav-->
       </header> <!--Fim Header-->
 
-      <section id="conteudo1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p class="display-4 text-center">
-                            Ferramentas Úteis para Tratar Caracteres de uma Forma Totalmente Simples
-                        </p>
-                    </div>
-                    
-                </div>
-                <div class="col-md-6 d-flex ">
-                    <div class="conteudo-pagina mt-4">
-                        <p>
-                            <img src="img/saiba.png" alt="Ilust" class="img-fluid">
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
+      <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h3 class="text-secondary mt-4 font-h3">
+                    Calculadora Leve X Pague Y
+                </h3>
+                <p class="font-italic mt-4 text-secondary">
+                    Saiba o Preço Final correto para o consumidor
+                </p>
 
-            <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p>
-                            <img src="img/saiba.png" alt="Ilust" class="img-fluid">
-                        </p>
+                <div id="box-calc">
+                    <label for="preco" class="d-block col-form-label-md text-center">Preço de Partida : </label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="R$" id="preco_partida">
+                        </div>
+                    </div>
+
+                    <label for="preco" class="d-block col-form-label-md text-center">Quantidade Leve :</label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="Leve" id="leve_x">
+                        </div>
+                    </div>
+
+                    <label for="preco" class="d-block col-form-label-md text-center">Quantidade Pague : </label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="Pague" id="pague_y">
+                        </div>
+                    </div>
+
+                    <label for="preco" class="d-block col-form-label-md text-center">Nesta Promoção a Unidade Sai a : R$</label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="R$" id="preco_prom" disabled>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex ">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p class="display-4 text-center">
-                            Funções Simples que Facilitam sua Vida<i class="fas fa-thumbs-up ml-4"></i>
-                        </p>
-                    </div>
-                    
+
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-secondary mr-3" onclick="calcularPromocao()">
+                        <span class="text-success">Calcular Promoção</span>  <i class="far fa-paper-plane text-success fa-lg ml-2"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="limparCampos()">
+                        <span class="text-success">Limpar Campos</span>  <i class="fas fa-backspace text-danger fa-lg ml-2"></i>
+                    </button>
                 </div>
+                
+
             </div>
         </div>
-      </section>
+      </div>
 
-      <footer>
+
+      <footer id="cabecalho">
           <div class="container">
               <div class="row mb-4">
                 <div class="col-md-6">
-                    <p class="text-light">&copyMelo Tools, Todos os direitos reservados</p>
+                    <p class="text-light">&copy Desenvolvido Por: João Lucas Melo</p>
                 </div>
 
-                <div class="col-md-6 d-flex justify-content-end">
+                <div class="col-md-6 d-flex justify-content-center">
                     <a href="https://www.facebook.com/joaolucas.m.souza/" class="btn btn-outline-light" target="_blank">
                         <i class="fab fa-facebook fa-lg"></i>
                       </a>
-                      
 
-                      <a href="https://github.com/joaolucastecnology/webfy" target="_blank" class="btn btn-outline-light ml-2">Por João Lucas</a>
+                      <a href="https://github.com/joaolucastecnology/webfy" target="_blank" class="btn btn-outline-light ml-2"><i class="fab fa-github-alt fa-lg"></i></a>
+
+                      <a href="https://www.linkedin.com/in/jlucasmelo/" target="_blank" class="btn btn-outline-light ml-2"><i class="fab fa-linkedin fa-lg"></i></a>
 
                 </div>
               </div>
               
           </div>
       </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

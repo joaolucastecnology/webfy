@@ -8,14 +8,18 @@ header {
 
 }
 
+.navbar-brand .logo {
+    font-size: 1.8rem;
+}
+
 /*
 Barra de navegacao Menu
 */
 
 .navbar-expand-sm .navbar-nav .nav-link {
     text-transform: uppercase;
-    margin: 0 3rem;
-    font-size: 0.9rem;
+    margin: 0 1.7rem;
+    font-size: 0.8rem;
     color: rgb(6, 94, 116);
     font-weight: bold;
     transition: 2s;
@@ -35,5 +39,37 @@ section#conteudo1 p {
     font-size: 3rem;
     line-height: 3.9rem;
     color: #fff;
-    opacity: 0.5;
+}
+
+li.dropdown {
+    border-radius: 0.5rem;
+}
+
+.dropdown-item {
+    font-size: 0.9rem;
+    color: #17a2b8;
+    padding: 1rem;
+
+}
+
+/*
+CAMPOS DOS CALCULOS
+*/
+
+
+
+#box-calc label {
+    display: block !important;
+    margin-right: 0.5rem;
+    color: #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input {
+    text-align: center;
 }

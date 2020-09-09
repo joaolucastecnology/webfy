@@ -30,7 +30,7 @@
           <div class="container-fluid"> <!--Inicio Container-->
             <!--Logo Site-->
             <a href="index.html" class="navbar-brand">
-              <span class="display-4">
+              <span class="logo">
                 <span class="text-light">Melo</span>  <span class="text-primary">Tools</span> <i class="fas fa-wrench fa-sm"></i>
               </span>
             </a>
@@ -44,21 +44,35 @@
             <div class="collapse navbar-collapse" id="menu-principal">
               <ul class="navbar-nav m-auto"> <!--Inicio UL-->
                 <li class="nav-item ">
-                    <a href="index.html" class="nav-link active">Home
+                    <a href="index.html" class="nav-link active text-info">Home
                       <i class="fas fa-home fa-lg ml-1"></i></a>
                   </li>
-                <li class="nav-item">
-                  <a href="tools.html" class="nav-link">Ferramentas para Texto
-                    <i class="fas fa-wrench fa-lg ml-1"></i>
-                  </a>
+                  <li>
+                    <div class="dropdown">
+                      <button class="dropdown-toggle text-info btn btn-outline-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ferramentas para Texto
+                        <i class="fas fa-wrench fa-lg ml-1"></i>
+                      </button>
+                      <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Conversor de Texto
+                          <i class="far fa-file-alt ml-2"></i>
+                        </a>
+                        <a class="dropdown-item" href="calc-supermarket.html">Calculadora Supermercado
+                          <i class="fas fa-square-root-alt ml-2"></i>
+                        </a>
+                        <a class="dropdown-item" href="#">Alguma coisa aqui</a>
+                      </div>
+  
+                    </div>
+                  </li>
                 </li>
                 <li class="nav-item">
-                  <a href="calc/index.html" class="nav-link" target="_blank">Mini Calculadora
+                  <a href="calc/index.html" class="nav-link text-info" target="_blank">Mini Calculadora
                     <i class="fas fa-calculator fa-lg ml-1"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="sobre.html" class="nav-link">Sobre
+                  <a href="sobre.html" class="nav-link text-info">Sobre
                     <i class="far fa-address-card fa-lg ml-1"></i>
                   </a>
                 </li>
