@@ -10,7 +10,7 @@ function calcularPromocao() {
 
     let calc_pague = (calc_leve * pague_y);
 
-    preco_final = document.getElementById('preco_prom').value = calc_pague.toFixed(2);
+    preco_final = document.getElementById('preco_prom').value = `R$: ${calc_pague.toFixed(2)}`;
 
     if (preco_partida === '' | leve_x === '' | pague_y === '' | preco_final === '') {
         alert('Para Efetuar o calculo, por favor preencha Todos os campos.')

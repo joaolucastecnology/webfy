@@ -1,5 +1,6 @@
 body {
     background: #343a40;
+    transition: 2s;
 }
 
 header {
@@ -20,6 +21,7 @@ Barra de navegacao Menu
     text-transform: uppercase;
     margin: 0 1.7rem;
     font-size: 0.8rem;
+    letter-spacing: 1.3px;
     color: rgb(6, 94, 116);
     font-weight: bold;
     transition: 2s;
@@ -28,6 +30,12 @@ Barra de navegacao Menu
 
 .navbar-expand-sm .navbar-nav .nav-link, .dropdown, .dropdown-item {
     text-align: center;
+}
+
+.dropdown .btn {
+    font-size: 0.8rem;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
 }
 
 .navbar-expand-sm .navbar-nav .nav-link:hover {
@@ -52,8 +60,18 @@ li.dropdown {
 .dropdown-item {
     font-size: 0.9rem;
     color: #17a2b8;
-    padding: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
 
+}
+
+a.dropdown-item {
+    font-size: 0.6rem;
+}
+
+a.dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
 }
 
 /*
@@ -63,9 +81,8 @@ CAMPOS DOS CALCULOS
 
 
 #box-calc label {
-    display: block !important;
     margin-right: 0.5rem;
-    color: #fff;
+    color: #dad4d4d3;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -89,9 +106,13 @@ input {
     color: #010008;
     font-weight: 600;
     font-size: 1.2rem;
-    font-family: 'Archivo', sans-serif;
+    
 }
 
-input#preco_prom {
-    
+.btn-space {
+    margin-top: 50px;
+}
+
+#rodape {
+    font-family: 'Archivo', sans-serif
 }

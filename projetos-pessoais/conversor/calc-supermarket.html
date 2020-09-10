@@ -43,7 +43,7 @@
   
             <!--Barra de Navegação-->
             <div class="collapse navbar-collapse" id="menu-principal">
-              <ul class="navbar-nav m-auto"> <!--Inicio UL-->
+              <ul class="navbar-nav ml-auto"> <!--Inicio UL-->
                 <li class="nav-item">
                     <a href="index.html" class="nav-link active  text-info">Home
                       <i class="fas fa-home fa-lg ml-1"></i></a>
@@ -52,7 +52,7 @@
                 <li>
                   <div class="dropdown">
                     <button class="dropdown-toggle text-info btn btn-outline-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      FERRAMENTAS PARA TEXTO
+                      Ferramentas
                       <i class="fas fa-wrench fa-lg ml-1"></i>
                     </button>
                     <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
@@ -62,16 +62,12 @@
                       <a class="dropdown-item " href="calc-supermarket.html">Calculadora Supermercado
                         <i class="fas fa-square-root-alt ml-2"></i>
                       </a>
-                      <a class="dropdown-item " href="#">Alguma coisa aqui</a>
+                      <a class="dropdown-item " href="calc/index.html">Calculadora Simples
+                        <i class="fas fa-calculator fa-lg ml-1"></i>
+                      </a>
                     </div>
 
                   </div>
-                </li>
-
-                <li class="nav-item">
-                  <a href="calc/index.html" class="nav-link  text-info">Mini Calculadora
-                    <i class="fas fa-calculator fa-lg ml-1"></i>
-                  </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link  text-info">Sobre
@@ -98,7 +94,7 @@
                     <label for="preco" class="d-block col-form-label-md text-center">Preço de Partida : </label>
                     <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
                         <div>
-                            <input type="number" class="form-control w-100" placeholder="R$" id="preco_partida">
+                            <input type="number" data class="form-control w-100" placeholder="R$" id="preco_partida">
                         </div>
                     </div>
 
@@ -119,12 +115,12 @@
                     <label for="preco" class="d-block col-form-label-md text-center">Nesta Promoção a Unidade Sai a :</label>
                     <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
                         <div>
-                            <input type="number" class="form-control w-100" placeholder="R$" id="preco_prom" disabled>
+                            <input type="text" class="form-control w-100" placeholder="R$" id="preco_prom" disabled>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center btn-space">
                     <button type="button" class="btn btn-outline-secondary mr-3" onclick="calcularPromocao()">
                         <span class="text-success">Calcular Promoção</span>  <i class="far fa-paper-plane text-success fa-lg ml-2"></i>
                     </button>
@@ -139,11 +135,11 @@
       </div>
 
 
-      <footer id="cabecalho">
+      <footer id="rodape">
           <div class="container">
               <div class="row mb-4">
                 <div class="col-md-6">
-                    <p class="text-light">&copy Desenvolvido Por: João Lucas Melo</p>
+                    <p class="text-light">&copy Desenvolvido Por João Lucas Melo</p>
                 </div>
 
                 <div class="col-md-6 d-flex justify-content-center">
