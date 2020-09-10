@@ -22,7 +22,16 @@ function calcularPromocao() {
 
 }
     
+// Limpar Campos Aplicando reload
 
 function limparCampos() {
     window.location.reload();
+}
+
+
+// Blue Mode 
+
+function lightMode() {
+    let light = document.body;
+    light.classList.toggle("light-mode");
 }

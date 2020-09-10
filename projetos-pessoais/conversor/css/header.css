@@ -116,3 +116,13 @@ input {
 #rodape {
     font-family: 'Archivo', sans-serif
 }
+
+
+/*
+Light Mode Toggle
+*/
+
+.light-mode {
+    background:#021b35;
+    color: red !important;
+}
