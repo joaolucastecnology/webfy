@@ -124,5 +124,10 @@ Light Mode Toggle
 
 .light-mode {
     background:#021b35;
-    color: red !important;
+}
+
+
+#get-hours p.data-hora-sys, h3 {
+    font-size: 2.5rem;
+    color: #fff;
 }

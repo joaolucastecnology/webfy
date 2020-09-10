@@ -1,3 +1,5 @@
+// Logica Calculo Leve x Pague y
+
 function calcularPromocao() {
 
     let preco_partida = document.getElementById('preco_partida').value;
@@ -35,3 +37,12 @@ function lightMode() {
     let light = document.body;
     light.classList.toggle("light-mode");
 }
+
+// Pegando data e Hora do Sistema Client-Side
+
+let dataHora = new Date
+
+let dataAtual = `${dataHora.getDate()}/${(dataHora.getMonth() +1)}/${dataHora.getFullYear()} `
+let horaAtual = `${dataHora.getHours()}:${dataHora.getMinutes()}`
+
+document.getElementById('data-hora').innerHTML = `${dataAtual} - ${horaAtual}` 
