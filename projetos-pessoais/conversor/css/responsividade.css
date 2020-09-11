@@ -34,6 +34,11 @@
         color: #fff;
     }
 
+    #get-hours {
+        margin-top: 25px;
+        border-top: 1px dashed #707a85 ;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
