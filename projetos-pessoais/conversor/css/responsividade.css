@@ -29,6 +29,7 @@
     }
 
     #get-hours p.data-hora-sys, h3 {
+        margin-top: 1rem;
         font-size: 1.5rem;
         color: #fff;
     }

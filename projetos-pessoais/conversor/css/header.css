@@ -128,6 +128,8 @@ Light Mode Toggle
 
 
 #get-hours p.data-hora-sys, h3 {
-    font-size: 2.5rem;
+    text-align: center;
+    font-size: 1.8rem;
     color: #fff;
 }
+
