@@ -18,12 +18,13 @@
 
     <!--Google Fontes-->
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&display=swap" rel="stylesheet">
 
     <!--Script Personalizado-->
     <script src="script/engine.js" defer></script>
 
 
-    <title>Melo Tools - Home</title>
+    <title>Melo Tools - % Porcentagem</title>
   </head>
   <body>
     <header id="home"> <!--Inicio Header-->
@@ -35,6 +36,8 @@
                 <span class="text-light">Melo</span>  <span class="text-primary">Tools</span> <i class="fas fa-wrench fa-sm"></i>
               </span>
             </a>
+
+            
   
             <!--Menu Responsivo-->
             <button class="navbar-toggler float-right" data-toggle="collapse" data-target="#menu-principal">
@@ -48,8 +51,8 @@
             <!--Barra de Navegação-->
             <div class="collapse navbar-collapse" id="menu-principal">
               <ul class="navbar-nav ml-auto"> <!--Inicio UL-->
-                <li class="nav-item active">
-                    <a href="#" class="nav-link  text-info">Home
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link text-info">Home
                       <i class="fas fa-home fa-lg ml-1"></i></a>
                   </li>
 
@@ -63,10 +66,10 @@
                       <a class="dropdown-item " href="text-convert.html">Conversor de Texto
                         <i class="far fa-file-alt ml-2"></i>
                       </a>
-                      <a class="dropdown-item " href="leve-pague.html">Calculadora Leve X Pague Y
+                      <a class="dropdown-item" href="leve-pague.html">Calculadora Leve X Pague Y
                         <i class="fas fa-square-root-alt ml-2"></i>
                       </a>
-                      <a class="dropdown-item " href="porcent_calc.html">Calculadora % Porcentagem
+                      <a class="dropdown-item active" href="#">Calculadora % Porcentagem
                         <i class="fas fa-square-root-alt ml-2"></i>
                       </a>
                       <a class="dropdown-item " href="calc/index.html">Calculadora Simples
@@ -76,7 +79,7 @@
 
                   </div>
                 </li>
-                <li class="nav-item disabled">
+                <li class="nav-item">
                   <a href="#" class="nav-link  text-info">Sobre
                     <i class="far fa-address-card fa-lg ml-1"></i>
                   </a>
@@ -89,54 +92,75 @@
 
       <div id="get-hours" class="text-center">
         <h3 class="">Horário Atual de Brasília</h3>
-
-        <p id="data-hora" class="data-hora-sys text-center">
-
-        </p>
+        <p id="data-hora" class="data-hora-sys text-center"></p>
       </div>
+     
+      
+     </p> 
 
-      <section id="conteudo1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p class="display-4 text-center text-home">
-                            Ferramentas Úteis para te ajudar a resolver problemas simples!
-                        </p>
-                    </div>
-                    
-                </div>
-                <div class="col-md-6 d-flex ">
-                    <div class="conteudo-pagina mt-4">
-                        <p>
-                            <img src="img/saiba.png" alt="Ilust" class="img-fluid">
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
+      <div class="container">
+        <div class="row text-center">
+            <div class="col-sm-12">
+                <h3 class="text-secondary mt-4 font-h3">
+                    Calculadora Porcentagem em Segunda Unidade %
+                </h3>
+                <p class="font-italic mt-4 text-secondary">
+                    Saiba o Preço Final correto para o consumidor
+                </p>
 
-            <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p>
-                            <img src="img/saiba.png" alt="Ilust" class="img-fluid">
-                        </p>
+                <div id="box-calc">
+                    <label for="preco" class="d-block col-form-label-md text-center">Preço de Partida : </label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" data class="form-control w-100" placeholder="R$" id="preco_partida">
+                        </div>
+                    </div>
+
+                    <label for="preco" class="col-form-label-md text-center w-100">Aplique a Porcentagem  de Desconto na Segunda Unidade :</label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="%" id="porcentagem">
+                        </div>
+                    </div>
+
+                    <label for="preco" class="d-block col-form-label-md text-center">Segunda Unidade com Desconto : </label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="R$" id="und-desconto" disabled>
+                        </div>
+                    </div>
+
+                    <label for="preco" class="d-block col-form-label-md text-center">Comprando 2 Unidades Iguais Sai a : </label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="R$" id="duas_und" disabled>
+                        </div>
+                    </div>
+
+                    <label for="preco" class="d-block col-form-label-md text-center">Nesta Promoção a Unidade Sai a :</label>
+                    <div class="d-flex justify-content-center align-items-center input-group input-group-sm mb-4">
+                        <div>
+                            <input type="number" class="form-control w-100" placeholder="R$" id="preco_prom" disabled>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex ">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p class="display-4 text-center text-home">
-                            Funções Simples que Facilitam sua Vida<i class="fas fa-thumbs-up ml-4"></i>
-                        </p>
-                    </div>
-                    
+
+                <div class="d-flex justify-content-center btn-space">
+                    <button type="button" class="btn btn-outline-secondary mr-3" onclick="calcularPromocaoPercent()">
+                        <span class="text-success">Calcular Promoção</span>  <i class="far fa-paper-plane text-success fa-lg ml-2"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="limparCampos()">
+                        <span class="text-success">Limpar Campos</span>  <i class="fas fa-backspace text-danger fa-lg ml-2"></i>
+                    </button>
                 </div>
+                
+
             </div>
         </div>
-      </section>
+      </div>
 
-      <footer id="rodape" class=".light-mode2">
+
+      <footer id="rodape">
           <div class="container">
               <div class="row mb-4">
                 <div class="col-md-6">
@@ -152,40 +176,11 @@
 
                       <a href="https://www.linkedin.com/in/jlucasmelo/" target="_blank" class="btn btn-outline-light ml-2"><i class="fab fa-linkedin fa-lg"></i></a>
 
-                      
-
                 </div>
               </div>
               
           </div>
       </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

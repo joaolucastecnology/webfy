@@ -9,6 +9,10 @@ header {
 
 }
 
+input {
+    transition: 2s;
+}
+
 .navbar-brand .logo {
     font-size: 1.8rem;
 }
@@ -124,6 +128,10 @@ Light Mode Toggle
 
 .light-mode {
     background:#021b35;
+}
+
+.light-mode2 {
+    color: red;
 }
 
 

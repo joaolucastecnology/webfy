@@ -21,8 +21,34 @@ function calcularPromocao() {
         document.getElementById('preco_prom').value = ''
         window.location.reload()
     }
-
 }
+
+// Logica calculo de porcentagem na segunda unidade
+
+function calcularPromocaoPercent() {
+    let preco_partida = document.getElementById('preco_partida').value
+    console.log(preco_partida)
+
+    let aplica_percent = document.getElementById('porcentagem').value
+
+    let calc_desc = preco_partida - (preco_partida * aplica_percent / 100)
+    document.getElementById('und-desconto').value = parseFloat(calc_desc.toFixed(2))
+
+    
+    let total_prom = (parseFloat(calc_desc) + parseFloat(preco_partida))
+    let preco_un = (total_prom / 2)
+    document.getElementById('preco_prom').value = parseFloat(preco_un).toFixed(2)
+
+    let duas_und = (parseFloat(preco_partida) + parseFloat(calc_desc))
+    document.getElementById('duas_und').value = parseFloat(duas_und).toFixed(2)
+
+    if (preco_partida === '' | aplica_percent === '') {
+        alert('Para efetuar o calculo por favor preencha todos os campos')
+        document.getElementById('und-desconto').value = ''
+    }
+}
+
+
     
 // Limpar Campos Aplicando reload
 
@@ -45,4 +71,6 @@ let dataHora = new Date
 let dataAtual = `${dataHora.getDate()}/${(dataHora.getMonth() +1)}/${dataHora.getFullYear()}`
 let horaAtual = `${dataHora.getHours()}:${dataHora.getMinutes()}`
 
-document.getElementById('data-hora').innerHTML = `${dataAtual} ${horaAtual}`
+hours = document.getElementById('data-hora').innerHTML = `${dataAtual} ${horaAtual}`
+
+
