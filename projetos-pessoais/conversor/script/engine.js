@@ -44,7 +44,7 @@ function calcularPromocaoPercent() {
 
     if (preco_partida === '' | aplica_percent === '') {
         alert('Para efetuar o calculo por favor preencha todos os campos')
-        document.getElementById('und-desconto').value = ''
+        window.location.reload()
     }
 }
 
