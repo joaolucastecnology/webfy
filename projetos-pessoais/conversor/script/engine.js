@@ -45,6 +45,9 @@ function calcularPromocaoPercent() {
     if (preco_partida === '' | aplica_percent === '') {
         alert('Para efetuar o calculo por favor preencha todos os campos')
         window.location.reload()
+    } else if (aplica_percent >= 100) {
+        alert('Valor Maximo para Desconto é de 100%')
+        window.location.reload()
     }
 }
 
