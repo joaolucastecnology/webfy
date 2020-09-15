@@ -30,7 +30,7 @@
 
 #### Calculadora Leve x Pague Y
 > Usando apenas condicionais simples e funções com operadores de comparação.
-* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/conversor/calc-supermarket.html" target="_blank">Calculadora Leve X Pague Y</a>
+* <a href="https://joaolucastecnology.github.io/webfy/projetos-pessoais/conversor/leve-pague.html" target="_blank">Calculadora Leve X Pague Y</a>
 
 
  
