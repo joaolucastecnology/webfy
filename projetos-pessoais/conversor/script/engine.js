@@ -14,6 +14,7 @@ function calcularPromocao() {
 
     preco_final = document.getElementById('preco_prom').value = calc_pague.toFixed(2)
 
+    // validacoes de campos
     if (preco_partida === '' | leve_x === '' | pague_y === '' | preco_final === '') {
         alert('Para Efetuar o calculo, por favor preencha Todos os campos.')
     } else if (pague_y > leve_x) {
@@ -26,6 +27,8 @@ function calcularPromocao() {
 // Logica calculo de porcentagem na segunda unidade
 
 function calcularPromocaoPercent() {
+    desconto = 101
+
     let preco_partida = document.getElementById('preco_partida').value
     console.log(preco_partida)
 
@@ -42,10 +45,11 @@ function calcularPromocaoPercent() {
     let duas_und = (parseFloat(preco_partida) + parseFloat(calc_desc))
     document.getElementById('duas_und').value = parseFloat(duas_und).toFixed(2)
 
+    // validacoes de campos
     if (preco_partida === '' | aplica_percent === '') {
         alert('Para efetuar o calculo por favor preencha todos os campos')
         window.location.reload()
-    } else if (aplica_percent >= 100) {
+    } else if (aplica_percent >= desconto) {
         alert('Valor Maximo para Desconto é de 100%')
         window.location.reload()
     }
