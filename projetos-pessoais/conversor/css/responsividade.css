@@ -39,6 +39,10 @@
         border-top: 1px dashed #707a85 ;
     }
 
+    .box-horario p#horario {
+        font-size: 3rem;
+    }
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {

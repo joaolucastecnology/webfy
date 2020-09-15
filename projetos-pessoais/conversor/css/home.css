@@ -1,0 +1,39 @@
+body {
+    background: url('../img/background-page.jpg') no-repeat center center;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+}
+
+.box1 {
+    width: 100vw;
+    height: 100vh;
+}
+
+#horario {
+    margin-top: -120px;
+    transition: 3s;
+    font-size: 7rem;
+    opacity: 0.8;
+    color: rgb(5, 36, 61);
+}
+
+
+nav.menu-home a {
+    text-decoration: none;
+    color: rgba(5, 45, 119, 0.644);
+    opacity: 0.7;
+
+}
+
+.perfil {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.perfil img {
+    opacity: 0.8;
+    border-radius: 35px;
+}
+

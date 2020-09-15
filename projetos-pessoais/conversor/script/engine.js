@@ -78,6 +78,6 @@ let dataHora = new Date
 let dataAtual = `${dataHora.getDate()}/${(dataHora.getMonth() +1)}/${dataHora.getFullYear()}`
 let horaAtual = `${dataHora.getHours()}:${dataHora.getMinutes()}`
 
-hours = document.getElementById('data-hora').innerHTML = `${dataAtual} ${horaAtual}`
+document.getElementById('data-hora').innerHTML = `${dataAtual} ${horaAtual}`
 
 
