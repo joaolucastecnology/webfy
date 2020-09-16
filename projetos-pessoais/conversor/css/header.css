@@ -134,10 +134,7 @@ Light Mode Toggle
     color: red;
 }
 
-
-#get-hours p.data-hora-sys, h3 {
-    text-align: center;
-    font-size: 1.8rem;
-    color: #fff;
+.box-horario p#horario {
+    color: #cecece;
+    font-size: 2.5rem;
 }
-

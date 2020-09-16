@@ -71,13 +71,13 @@ function lightMode() {
     light.classList.toggle("light-mode");
 }
 
-// Pegando data e Hora do Sistema Client-Side
+// // Pegando data e Hora do Sistema Client-Side
 
-let dataHora = new Date
+// let dataHora = new Date
 
-let dataAtual = `${dataHora.getDate()}/${(dataHora.getMonth() +1)}/${dataHora.getFullYear()}`
-let horaAtual = `${dataHora.getHours()}:${dataHora.getMinutes()}`
+// let dataAtual = `${dataHora.getDate()}/${(dataHora.getMonth() +1)}/${dataHora.getFullYear()}`
+// let horaAtual = `${dataHora.getHours()}:${dataHora.getMinutes()}`
 
-document.getElementById('data-hora').innerHTML = `${dataAtual} ${horaAtual}`
+// document.getElementById('data-hora').innerHTML = `${dataAtual} ${horaAtual}`
 
 
