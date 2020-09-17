@@ -59,6 +59,10 @@ BARRA DE NAVEGACAO - MENU
     border-bottom: 1px solid red;
 }
 
+.navbar {
+    background: rgba(5, 4, 5, 0.021);
+}
+
 /*
 CONTEUDO PAGINA HOME
 */
