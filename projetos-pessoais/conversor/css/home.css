@@ -1,7 +1,6 @@
 body {
-    background: url('../img/background-page.jpg') no-repeat center center;
+    background: url('https://source.unsplash.com/random/1920x980') no-repeat center center;
     background-size: cover;
-    font-family: 'Ubuntu', sans-serif;
     overflow: hidden;
 }
 
@@ -11,14 +10,19 @@ body {
 }
 
 #horario {
+    font-family: 'Anton', sans-serif;
     margin-top: -120px;
     transition: 3s;
     font-size: 7rem;
     opacity: 0.8;
-    color: rgb(5, 36, 61);
-    letter-spacing: 10px;
+    color: rgb(2, 31, 36);
+    letter-spacing: 15px;
 }
 
+
+a.dropdown-item:hover {
+    color: #02000c;
+}
 
 nav.menu-home a {
     text-decoration: none;
@@ -27,14 +31,5 @@ nav.menu-home a {
 
 }
 
-.perfil {
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-}
 
-.perfil img {
-    opacity: 0.8;
-    border-radius: 35px;
-}
 

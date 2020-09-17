@@ -1,25 +1,36 @@
+/*
+PROPRIEDADES GLOBAIS
+*/
+
 body {
     background: #343a40;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 header {
-    
     font-family: 'Archivo', sans-serif;
-
 }
 
 input {
-    transition: 2s;
+    text-align: center;
+    transition: 1s;
 }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+
+/*
+BARRA DE NAVEGACAO - MENU
+*/
 
 .navbar-brand .logo {
     font-size: 1.8rem;
 }
-
-/*
-Barra de navegacao Menu
-*/
 
 .navbar-expand-sm .navbar-nav .nav-link, .dropdown {
     text-transform: uppercase;
@@ -31,6 +42,7 @@ Barra de navegacao Menu
     transition: 2s;
     padding-bottom: 10px;
 }
+
 
 .navbar-expand-sm .navbar-nav .nav-link, .dropdown, .dropdown-item {
     text-align: center;
@@ -48,7 +60,7 @@ Barra de navegacao Menu
 }
 
 /*
-Conteudo pagina Home
+CONTEUDO PAGINA HOME
 */
 
 section#conteudo1 p {
@@ -75,29 +87,18 @@ a.dropdown-item {
 
 a.dropdown-item:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
+    color: rgba(241, 237, 237, 0.658);
 }
 
 /*
 CAMPOS DOS CALCULOS
 */
 
-
-
 #box-calc label {
     margin-right: 0.5rem;
     color: #dad4d4d3;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
--webkit-appearance: none;
-margin: 0;
-}
-
-input {
-    text-align: center;
-}
 
 #box-calc label {
     font-family: 'Archivo', sans-serif;
@@ -117,9 +118,12 @@ input {
     margin-top: 50px;
 }
 
-#rodape {
-    font-family: 'Archivo', sans-serif
+.box-horario p#horario {
+    color: #cecece;
+    font-size: 2.5rem;
 }
+
+
 
 
 /*
@@ -134,7 +138,9 @@ Light Mode Toggle
     color: red;
 }
 
-.box-horario p#horario {
-    color: #cecece;
-    font-size: 2.5rem;
+
+
+#rodape {
+    font-family: 'Archivo', sans-serif
 }
+
