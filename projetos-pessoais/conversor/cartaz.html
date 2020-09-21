@@ -12,16 +12,18 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/responsividade.css">
     <link rel="stylesheet" href="css/tools.css">
+    <link rel="stylesheet" href="css/cartaz.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!--Google Fontes-->
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap" rel="stylesheet">
 
     <!--Script Personalizado-->
     <script src="script/engine.js" defer></script>
-    <script src="script/conteudo.js" defer></script>
+    <script src="script/engine-cartaz.js" defer></script>
 
 
     <title></title>
@@ -93,42 +95,54 @@
         </nav> <!--Fim Nav-->
       </header> <!--Fim Header-->
 
-      <section id="conteudo1">
-        <div class="container">
+      <section id="home-cartaz">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p class="display-4 text-center text-home" id="titulo1">
-                            
-                        </p>
+                <div class="col-md-4">
+                    <label for="desc"> <small>Descrição Principal</small></label>
+                    <div class="input-group caixa1 mb-3">
+                        <input type="text" class="form-control text-left" onkeyup="texto1()" id="texto1" maxlength="21">
                     </div>
-                    
-                </div>
-                <div class="col-md-6 d-flex ">
-                    <div class="conteudo-pagina mt-4">
-                        <p>
-                            <img src="img/saiba.png" alt="Ilust" class="img-fluid">
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-6 d-flex">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p>
-                            <img src="img/saiba.png" alt="Ilust" class="img-fluid">
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 d-flex ">
-                    <div class="conteudo-pagina mt-4 align-self-center">
-                        <p class="display-4 text-center text-home" id="titulo2">
-                            <i class="fas fa-thumbs-up ml-4"></i>
-                        </p>
+                    <label for="desc"> <small>Descrição Secundaria</small></label>
+                    <div class="input-group caixa1 mb-3">
+                        <input type="text" class="form-control text-left" onkeyup="texto2()" id="texto2" maxlength="32">
+                    </div> 
+
+                    <label for="desc"> <small>Unidade de Medida Produto</small></label>
+                    <div class="input-group caixa1 mb-3">
+                        <input type="text" class="form-control text-left" onkeyup="medida()" id="medida" maxlength="20" placeholder="Ex: Kg, Cada, A Cada 100g">
                     </div>
                     
+                    <label for="desc"> <small>Preço Produto</small></label>
+                    <div class="input-group caixa1">
+                        <input type="number" class="form-control text-left" onkeyup="medida()" id="medida" maxlength="20" placeholder="R$">
+                    </div>
+
+                </div>
+
+                <div class="col-md-8" id="box-cartaz">
+                    <div class="conteudo-cartaz">
+                        <h1 id="recebe-texto1" class="mb-4">
+                        
+                        </h1>
+    
+                        <h3 id="recebe-texto2">
+    
+                        </h3>
+
+                        <div id="recebe-preco">
+                            <h1>
+                               <span class="display-1 cifr">R$ </span> <span class="recebe-preco-value">3.50</span> 
+                            </h1>
+                        </div>
+
+                        <div id="box-medida">
+                            <p id="medida-produto">
+                                
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

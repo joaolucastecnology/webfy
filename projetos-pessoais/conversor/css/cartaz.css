@@ -1,0 +1,59 @@
+body {
+    color: #fff;
+}
+
+.caixa1 {
+    width: 350px;
+}
+
+#box-cartaz .conteudo-cartaz{
+    position: relative;
+    font-family: 'Ramabhadra', sans-serif;
+    box-sizing: border-box;
+    background: #fff;
+    width: 700px;
+    height: 500px;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+.conteudo-cartaz {
+    padding: 20px;
+}
+
+.conteudo-cartaz h1 {
+    font-size: 3.5rem;
+}
+
+.conteudo-cartaz h3 {
+    font-size: 2.3rem;
+}
+
+#box-cartaz .conteudo-cartaz #medida-produto {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+}
+
+#box-cartaz .conteudo-cartaz p {
+    justify-content: center;
+}
+
+#box-cartaz .conteudo-cartaz #recebe-preco {
+    color: red;
+    position: absolute;
+    top: 58%;
+}
+
+#box-cartaz .conteudo-cartaz #recebe-preco .cifr {
+    font-size: 10rem;
+    color: #000;
+}
+
+#box-cartaz .conteudo-cartaz #recebe-preco h1 {
+    color: #000;
+    font-size: 6rem;
+}
+
