@@ -18,3 +18,10 @@ function medida() {
 
     let medidaProduto = document.getElementById('medida-produto').innerHTML = medida
 }
+
+function precoProduto() {
+    let precoProduto = document.getElementById('preco-produto').value
+    console.log(precoProduto)
+
+    let PrecoProduto1 = document.getElementById('recebe-preco-value').innerHTML = precoProduto
+}
