@@ -38,4 +38,8 @@ function data1() {
     document.getElementById('campoValidade').innerHTML = `${str} ${sep} ${campoDataP}`
 }
 
+function gerarCartaz() {
+    alert('Seção em implementação, por favor aguarde!, disponivel em breve')
+}
+
 
