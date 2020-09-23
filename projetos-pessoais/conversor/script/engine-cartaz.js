@@ -1,13 +1,13 @@
 function texto1() {
     let texto1 = document.getElementById('texto1').value
 
-    let recebeTexto1 = document.getElementById('recebe-texto1').innerHTML = texto1
+    let recebeTexto1 = document.getElementById('recebe-texto1').innerHTML = texto1.toUpperCase()
 }
 
 function texto2() {
     let texto2 = document.getElementById('texto2').value
 
-    let recebeTexto2 = document.getElementById('recebe-texto2').innerHTML = texto2
+    let recebeTexto2 = document.getElementById('recebe-texto2').innerHTML = texto2.toUpperCase()
 }
 
 function medida() {
