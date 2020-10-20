@@ -27,7 +27,7 @@ function calcularPromocao() {
 // Logica calculo de porcentagem na segunda unidade
 
 function calcularPromocaoPercent() {
-    desconto = 101
+    const desconto = 101
 
     let preco_partida = document.getElementById('preco_partida').value
     console.log(preco_partida)

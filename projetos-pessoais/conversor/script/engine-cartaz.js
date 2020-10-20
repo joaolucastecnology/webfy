@@ -30,8 +30,8 @@ function precoProdutoPor() {
 }
 
 function data1() {
-    str = 'Válido Até : '
-    sep = ' De Hoje a '
+    const str = 'Válido Até : '
+    const sep = ' De Hoje a '
     campoDataP = document.getElementById('data1').value
     console.log(campoDataP)
 
