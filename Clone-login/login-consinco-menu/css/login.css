@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#close i {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    color: #fff;
+}
+
+#container {
+    width: 423px;
+    height: 401px;
+    padding-top: 20px;
+    background:#32495b;
+    margin: 10% auto;
+    position: relative;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#conection {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conection label {
+    width: 50%;
+    margin-bottom: 4px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+#conection input {
+    width: 50%;
+    height: 25px;
+    padding: 2px;
+    border-radius: 0;
+    border: 1px solid #000;
+    background: #fff;
+    font-size: 1em;
+}
+
+#box-user {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#box-user #user, #password {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+#box-user #user label, #password label {
+    color: #fff;
+    margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+#box-user #user input, #password input {
+    width: 100%;
+    height: 28px;
+    border-radius: 0;
+    border: 1px solid #000;
+    background: #fff;
+    outline: none;
+    padding: 2px;
+}
+
+#box-user #password a {
+    margin-top: 2px;
+    color: #fff;
+    font-size: 0.7em;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box-enter {
+    margin-top: -18px;
+    display: flex;
+    justify-content: center;
+}
+
+#box-enter #empresa, #button-entrar {
+    width: 43.5%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: center;
+    padding: 4px;
+}
+
+#box-enter #empresa label {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 4px;
+}
+
+#box-enter #empresa select, #button-entrar button {
+    width: 100%;
+    height: 28px;
+    outline: none;
+}
+
+#box-enter #button-entrar button {
+    background:#848285;
+    border: 1px solid #fbffff;
+    font-weight: 700;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+#box-enter #button-entrar button:hover {
+    background: #9f9ea0 ;
+}
+
+#version span {
+    position: absolute;
+    right: 0;
+    left: 318px;
+    bottom: 8px;
+    color: #fff;
+    font-size: 0.8em;
+}
