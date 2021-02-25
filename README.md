@@ -9,3 +9,7 @@
 > Avançando com os conhecimentos de Responsividade(media queries) e estilização com Bootstrap.
 * > [Spotify - Página Principal CloneDesign](https://joaolucastecnology.github.io/webfy/Projetos/Spotify/index.html)
 * > [Página de Finanças - Site Ficticio ](https://joaolucastecnology.github.io/webfy/Projetos/finans/index.html)
+
+### Clones Formularios de Login
+* > Desenvolvidos com HTML & CSS puro.
+...em dev
