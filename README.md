@@ -12,6 +12,6 @@
 
 ### Clones Formularios de Login
 * > Desenvolvidos com HTML & CSS puro.
-> Telas desenvolvidas com intuito educacional e de aprendizagem.
+* > Telas desenvolvidas com intuito educacional e de aprendizagem.
 [Página de Login ZimbraMail Clone](https://joaolucastecnology.github.io/webfy/formLogins/FormZimbraMail/login.html)
 [Página de Login Smarket Solutions](https://joaolucastecnology.github.io/webfy/formLogins/FormSmarketClone/login.html)
