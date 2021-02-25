@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box-login {
+    margin: 200px auto;
+    width: 500px;
+    height: 315px;
+    box-sizing: border-box;
+    background-color:#0087C3;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+#dados {
+    box-sizing: border-box;
+    padding: 35px;
+}
+
+#box-login #usuario,
+#box-login #senha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+#box-login #usuario input,
+#box-login #senha input {
+    width: 65%;
+    height: 20px;
+    border-radius: 3px;
+    border: 0;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+#entrar-lembrar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#entrar-lembrar p {
+    font-size: 13px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+#entrar-lembrar button {
+    background-color: #0087C3;
+    color: #fff;
+    padding: 4px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    margin-left: 33px;
+    font-size: 12px;
+}
+
+#entrar-lembrar button:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #3FA5D2;
+}
+
+#versao {
+    border-top: 1px solid #fff;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#versao p {
+    font-size: 13px;
+    color: #fff;
+}
+
+#versao select {
+    width: 45%;
+    position: relative;
+    left: 8%;
+}
+
+#versao a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+}
+
+#versao a:hover {
+    text-decoration: underline;
+}

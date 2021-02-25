@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mukta';
+    font-weight: 600;
+}
+
+#logo {
+    margin: 60px 0 10px 0;
+    text-align: center;
+}
+
+#logo img {
+    width: 250px;
+}
+
+#box-login {
+    width: 350px;
+    height: 260px;
+    border: 1px solid rgb(245, 238, 238);
+    margin: auto;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0px 1px 0px rgb(199, 197, 197);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login {
+    margin-bottom: 10px;
+}
+
+#box-login p {
+    font-size: 15px;
+}
+
+#box-login #login input,
+#box-login #senha input
+{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 4px;
+}
+
+#box-login #entrar button {
+    margin-top: 15px;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    background-color: #7800ff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+#box-login #entrar button:hover {
+    background-color:#471095 ;
+}
+
+#esqueceu-senha {
+    margin-top: 10px;
+}
+
+#esqueceu-senha a {
+    text-decoration: none;
+    color: #7800ff;
+    font-weight: 500;
+    font-size: 15px;
+}
