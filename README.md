@@ -6,4 +6,5 @@
 * > [Museu Nacional - Site Artigos de Museu - Site Ficticio](https://joaolucastecnology.github.io/webfy/Projetos/museu-nacional/index.html)
 
 2 - Primeiros contatos com a Tecnologia Bootstrap.
-> Avançando com os conhecimentos de Responsividade estilização com Bootstrap
+> Avançando com os conhecimentos de Responsividade(media queries) e estilização com Bootstrap.
+* > [Spotify - Página Principal CloneDesign](https://joaolucastecnology.github.io/webfy/Projetos/Spotify/index.html)
