@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color:#C1CFDA;
+    color: #fff;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+#container #perfil {
+    margin-bottom: 0.9em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container #perfil img {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    transition: 600ms;
+}
+
+#container #perfil img:hover {
+    transform: rotate(1080deg)
+}
+
+
+
+#container #perfil p {
+    color:#70163C ;
+    transition: 100ms;
+    padding: 1px;
+}
+
+#container #perfil p:hover {
+    border-bottom: 1px dotted #70163C;
+    padding: 0.1em;
+}
+#content {
+    box-sizing: border-box;
+}
+
+#content .link{
+    background-color: #20A4F3;
+    border-radius: 20px;
+    width: 18em;
+    height: 2.5em;
+    margin-bottom: 0.9em;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 400ms;
+}
+
+#content .link:hover {
+    background-color:#C1CFDA;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+#content .link a {
+    color: #03191E;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    display: flex;
+    color: #000;
+}
+
