@@ -1,3 +1,14 @@
+@keyframes animaBloco {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: scale(1.10);
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,14 +17,42 @@
 
 }
 
-a {
-    text-decoration: none;
-}
-
 body {
     background-color:#C1CFDA;
     color: #fff;
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    width: 15em;
+    height: 2.5em;
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+ul li.primary {
+    animation-name: animaBloco;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    transition: 300ms;
+}
+
+a {
+    text-decoration: none;
+}
+
+
 
 #container {
     width: 100vw;
@@ -28,7 +67,7 @@ body {
 }
 
 #container #perfil {
-    margin-bottom: 0.9em;
+    margin-bottom: 50px;
 
     display: flex;
     flex-direction: column;
@@ -63,10 +102,10 @@ body {
     box-sizing: border-box;
 }
 
-#content .link{
+#content .lista{
     background-color: #20A4F3;
     border-radius: 20px;
-    width: 18em;
+    width: 20em;
     height: 2.5em;
     margin-bottom: 0.9em;
 
@@ -76,20 +115,20 @@ body {
     transition: 400ms;
 }
 
-#content .link:hover {
+#content .lista:hover {
     background-color:#C1CFDA;
     cursor: pointer;
     transform: scale(0.9);
-    transition: 200ms;
+    transition: 150ms;
 }
 
-#content .link a {
+#content .lista a {
     color: #03191E;
     font-size: 1.2em;
 }
 
 footer {
-    margin-top: 10em;
+    margin-top: 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
