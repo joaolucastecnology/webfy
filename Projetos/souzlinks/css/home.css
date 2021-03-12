@@ -76,9 +76,9 @@ a {
 }
 
 #container #perfil img {
-    width: 90px;
-    height: 90px;
-    border-radius: 45px;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
     transition: 600ms;
 }
 
@@ -90,13 +90,12 @@ a {
 
 #container #perfil p {
     color:#70163C ;
-    transition: 100ms;
-    padding: 1px;
+    transition: 300ms;
+    padding-top: 20px;
 }
 
 #container #perfil p:hover {
     border-bottom: 1px dotted #70163C;
-    padding: 0.1em;
 }
 #content {
     box-sizing: border-box;
