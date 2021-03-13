@@ -1,7 +1,7 @@
 function msgDia() {
     var msg = document.getElementById('msg');
     var data = new Date();
-    var hora = data.getHours();
+    var horax = data.getHours();
     var minuto = data.getMinutes();
     var hora = `${data.getHours()} : ${data.getMinutes()}`;
     var horas = document.getElementById('hora');
@@ -12,10 +12,10 @@ function msgDia() {
     msg.style.textAlign = `center`;
     
 
-    if (hora >= 0 && hora <= 12) {
+    if (horax >= 0 && horax <= 12) {
             msg.innerHTML += ` Olá, Bom Dia `;
     }
-     else if (hora >=12 && hora <= 18) {
+     else if (horax >=12 && horax <= 18) {
         msg.innerHTML += ` Olá, Boa Tarde `;
     }
      else {
