@@ -45,6 +45,7 @@ ul li.primary {
     animation-name: animaBloco;
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
     transition: 300ms;
 }
 
