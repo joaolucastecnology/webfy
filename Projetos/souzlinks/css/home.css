@@ -125,16 +125,44 @@ a {
     font-size: 1.2em;
 }
 
-footer {
+section#creditos {
     margin-top: 5em;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#creditos p {
+    display: flex;
+    color: #000;
+    padding: 10px;
+}
+
+section#creditos .fa-github-square {
+    color: #000;
+}
+
+section#creditos .fa-github-square:hover {
+    color: rgb(28, 10, 129);
+}
+
+footer {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 footer p {
-    display: flex;
+    padding: 10px;
     color: #000;
+}
+
+footer .fa-linkedin-in {
+    color: #000;
+}
+
+footer .fa-linkedin-in:hover {
+    color: rgb(28, 10, 129);
+}
 }
 
