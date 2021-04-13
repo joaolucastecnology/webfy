@@ -3,25 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#container {
-    width: 100vw;
-    height: 50vh;
-    border: 1px solid red;
-    margin: auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#cot-dolar,
-#cot-euro,
-#cot-btc {
-    padding: 10px;
-    border: 1px solid blue;
-    width: 350px;
-    height: 100px;
-    text-align: center;
-}
