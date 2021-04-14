@@ -9,18 +9,17 @@ function init() {
           dolar += `Nome: ${data['USDBRL']['name']} <br/>`;
           dolar += `Compra: ${data['USDBRL']['bid']} <br/>`;
           dolar += `Venda: ${data['USDBRL']['ask']}`;
-
-          let conteudoDolar = document.getElementById('dolar');
-          conteudoDolar.innerHTML = dolar;
-
+          
+          let conteudoDolar = document.getElementById('dolar').innerHTML = dolar;
+          
           let euro = "";
           euro += `Codigo: ${data['EURBRL']['code']} <br/>`;
           euro += `Nome: ${data['EURBRL']['name']} <br/>`;
           euro += `Compra: ${data['EURBRL']['bid']} <br/>`;
           euro += `Venda: ${data['EURBRL']['ask']}`;
 
-          let conteudoEuro = document.getElementById('euro');
-          conteudoEuro.innerHTML = euro;
+          let conteudoEuro = document.getElementById('euro').innerHTML = euro;
+          
 
           let btc = "";
           btc += `Codigo: ${data['BTCBRL']['code']} <br/>`;
@@ -28,8 +27,8 @@ function init() {
           btc += `Compra: ${data['BTCBRL']['bid']} <br/>`;
           btc += `Venda: ${data['BTCBRL']['ask']}`;
 
-          let conteudoBtc = document.getElementById('bitcoin');
-          conteudoBtc.innerHTML = btc;
+          let conteudoBtc = document.getElementById('bitcoin').innerHTML = btc;
+          
 
           let eth = "";
           eth += `Codigo: ${data['ETHBRL']['code']} <br/>`;
@@ -37,8 +36,8 @@ function init() {
           eth += `Compra: ${data['ETHBRL']['bid']} <br/>`;
           eth += `Venda: ${data['ETHBRL']['ask']}`;
 
-          let conteudoEth = document.getElementById('eth');
-          conteudoEth.innerHTML = eth
+          let conteudoEth = document.getElementById('eth').innerHTML = eth;
+          
 
           let xrp = "";
           xrp += `Codigo: ${data['XRPBRL']['code']} <br/>`;
@@ -46,8 +45,8 @@ function init() {
           xrp += `Compra: ${data['XRPBRL']['bid']} <br/>`;
           xrp += `Venda: ${data['XRPBRL']['ask']}`;
 
-          conteudoXrp = document.getElementById('xrp');
-          conteudoXrp.innerHTML = xrp;
+          conteudoXrp = document.getElementById('xrp').innerHTML = xrp;
+          
       }
   });
 }
