@@ -20,16 +20,14 @@ function init() {
 
           let conteudoEuro = document.getElementById('euro').innerHTML = euro;
           
-
           let btc = "";
           btc += `Codigo: ${data['BTCBRL']['code']} <br/>`;
           btc += `Nome: ${data['BTCBRL']['name']} <br/>`;
           btc += `Compra: ${data['BTCBRL']['bid']} <br/>`;
           btc += `Venda: ${data['BTCBRL']['ask']}`;
-
+          
           let conteudoBtc = document.getElementById('bitcoin').innerHTML = btc;
           
-
           let eth = "";
           eth += `Codigo: ${data['ETHBRL']['code']} <br/>`;
           eth += `Nome: ${data['ETHBRL']['name']} <br/>`;
@@ -38,7 +36,6 @@ function init() {
 
           let conteudoEth = document.getElementById('eth').innerHTML = eth;
           
-
           let xrp = "";
           xrp += `Codigo: ${data['XRPBRL']['code']} <br/>`;
           xrp += `Nome: ${data['XRPBRL']['name']} <br/>`;
