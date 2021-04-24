@@ -46,4 +46,11 @@ function init() {
           
       }
   });
+
+  /**
+   * refresh na pagina a cada 30segs
+   */
+  setInterval(function() {
+    window.location.reload()
+  }, 30000)
 }
