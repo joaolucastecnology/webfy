@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @keyframes animaBloco {
     from {
         transform: rotate(0deg);
@@ -8,40 +10,57 @@
     }
 }
 
-
 * {
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'MuseoModerno', cursive;
-
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right,#546A76, #FCF7FF );
+    background-attachment: fixed;
+    
+    
 }
 
-body {
-    background-color:#C1CFDA;
+#msg,
+#hora {
     color: #fff;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-ul li {
-    width: 15em;
-    height: 2.5em;
-    padding: 0.2em;
-    margin-bottom: 0.5em;
-    border-radius: 15px;
+.container {
+    margin-top: 5px;
+    height: 100vh;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-   
+    justify-content: center;
+    transition: 400ms;
 }
 
-ul li.primary {
+.foto {
+    margin-top: 5px;
+    width: 120px;
+    border-radius: 75px;
+    opacity: 0.6;
+    transition: 300ms;
+}
+
+ul.lista li {
+    width: 18em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 0.5em;
+    border: 1px solid rgba(10, 0, 0, 0.267);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+ul.lista li.primary { 
     animation-name: animaBloco;
     animation-duration: 1000ms;
     animation-iteration-count: infinite;
@@ -49,119 +68,31 @@ ul li.primary {
     transition: 300ms;
 }
 
-a {
+ul.lista li a {
+    color: rgb(59, 58, 58);
+    text-decoration: none;
+    
+}
+
+ul.lista li:hover {
+    background-color: rgba(243, 247, 247, 0.116);
+    color: #000;
+}
+
+
+
+
+i {
+    color: #fff;
+}
+
+
+footer.rodape {
+    margin-top: 20px;
+    color: rgb(39, 38, 38);
+}
+
+footer.rodape a {
+    color: rgb(7, 6, 6);
     text-decoration: none;
 }
-
-#container {
-    width: 100vw;
-    height: 100vh;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    transition: 300ms;
-}
-
-#container #perfil {
-    margin-bottom: 50px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#container #perfil img {
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    transition: 600ms;
-}
-
-#container #perfil img:hover {
-    transform: rotate(1080deg)
-}
-
-
-
-#container #perfil p {
-    color:#70163C ;
-    transition: 300ms;
-    padding-top: 20px;
-}
-
-#container #perfil p:hover {
-    border-bottom: 1px dotted #70163C;
-}
-#content {
-    box-sizing: border-box;
-}
-
-#content .lista{
-    background-color: #20A4F3;
-    border-radius: 20px;
-    width: 20em;
-    height: 2.5em;
-    margin-bottom: 0.9em;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    transition: 400ms;
-}
-
-#content .lista:hover {
-    background-color:#C1CFDA;
-    cursor: pointer;
-    transform: scale(0.9);
-    transition: 150ms;
-}
-
-#content .lista a {
-    color: #03191E;
-    font-size: 1.2em;
-}
-
-section#creditos {
-    margin-top: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-section#creditos p {
-    display: flex;
-    color: #000;
-    padding: 10px;
-}
-
-section#creditos .fa-github-square {
-    color: #000;
-}
-
-section#creditos .fa-github-square:hover {
-    color: rgb(28, 10, 129);
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer p {
-    padding: 10px;
-    color: #000;
-}
-
-footer .fa-linkedin-in {
-    color: #000;
-}
-
-footer .fa-linkedin-in:hover {
-    color: rgb(28, 10, 129);
-}
-
