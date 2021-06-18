@@ -23,3 +23,30 @@
         border-radius: 0;
     }
  }
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+    body {
+        background-image: linear-gradient(to right,#546A76, #201f20);
+        background-attachment: fixed;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    .conteudo .links .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid rgba(207, 201, 201, 0.267);
+        padding: 3px;
+        width: 450px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 9px;
+        transition: 400ms;
+        font-size: 20px;
+        outline: none;
+        border-radius: 0;
+    }
+  }
