@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right,#546A76, #FCF7FF);
+    background-image: linear-gradient(to right,#546A76, #636164);
     background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
     
@@ -7,7 +7,7 @@ body {
 
 .container {
     width: 100vw;
-    height: 100vh;
+    height: 99vh;
     display: flex;
     flex-direction: column;
     align-items: center;

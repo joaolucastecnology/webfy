@@ -1,26 +1,19 @@
 @media (min-width: 315px) and (max-width: 767.98px) { 
     body {
         background-image: linear-gradient(to right,#546A76, #413f42);
-        background-attachment: fixed;
-        font-family: 'Montserrat', sans-serif;
         
     }
     
     .conteudo .links .item {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
         border: 1px solid rgba(207, 201, 201, 0.267);
         padding: 3px;
-        width: 350px;
+        width: 300px;
         margin-bottom: 10px;
-        text-decoration: none;
-        color: #fff;
-        border-radius: 9px;
-        transition: 400ms;
-        font-size: 18px;
-        outline: none;
-        border-radius: 0;
+        font-size: 20px;
+    }
+
+    footer {
+        display: none;
     }
  }
 
@@ -28,25 +21,50 @@
 
     body {
         background-image: linear-gradient(to right,#546A76, #201f20);
-        background-attachment: fixed;
-        font-family: 'Montserrat', sans-serif;
-        
     }
 
     .conteudo .links .item {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        border: 1px solid rgba(207, 201, 201, 0.267);
         padding: 3px;
-        width: 450px;
+        width: 400px;
         margin-bottom: 10px;
-        text-decoration: none;
-        color: #fff;
-        border-radius: 9px;
-        transition: 400ms;
         font-size: 20px;
-        outline: none;
-        border-radius: 0;
+    }
+
+    .container {
+        width: 100vw;
+        height: 95vh;
     }
   }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    body {
+        background-image: linear-gradient(to right,#546A76, #413f42);
+    }    
+
+    .conteudo .links .item {
+        padding: 5px;
+        width: 500px;
+        margin-bottom: 20px;   
+  }
+
+  .container {
+    width: 100vw;
+    height: 95vh;
+}
+
+   }
+
+   @media (min-width: 1200px) { 
+    .conteudo .links .item {
+        padding: 10px;
+        width: 600px;
+        margin-bottom: 10px;
+        font-size: 30px; 
+  }
+
+  .container {
+    width: 100vw;
+    height: 95vh;
+}
+    }

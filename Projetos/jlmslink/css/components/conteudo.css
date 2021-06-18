@@ -11,12 +11,12 @@
     justify-content: space-around;
     border: 1px solid rgba(207, 201, 201, 0.267);
     padding: 5px;
-    width: 500px;
+    width: 450px;
     margin-bottom: 10px;
     text-decoration: none;
     color: #fff;
-    border-radius: 9px;
     transition: 400ms;
+    font-size: 24px;
 }
 
 .conteudo .links .item:hover {
