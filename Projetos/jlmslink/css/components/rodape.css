@@ -7,13 +7,11 @@ footer  {
 
 .rodape a {
     text-decoration: none;
-    color: rgb(1, 22, 24);
-    font-weight: bold;
+    color: rgb(241, 247, 247);
     transition: 400ms ease-in-out;
 }
 
 .rodape a:hover {
-    text-decoration: none;
     color: rgb(242, 238, 245);
     border: 1px solid rgba(207, 201, 201, 0.267);
     border-radius: 7px;
