@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to right,#546A76, #FCF7FF);
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

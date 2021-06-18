@@ -1,0 +1,24 @@
+.conteudo .links {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo .links .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(207, 201, 201, 0.267);
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 9px;
+    transition: 400ms;
+}
+
+.conteudo .links .item:hover {
+    background-color: #c4bfc4;
+}

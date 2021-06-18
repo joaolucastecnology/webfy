@@ -1,0 +1,28 @@
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil .foto-perfil {
+    text-align: center;
+    color: #fff;
+}
+
+.perfil .foto {
+    width: 120px;
+    border-radius: 75px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
+
+.perfil #info-dia {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.perfil #info-dia #msg {
+    margin-bottom: 20px;
+}
