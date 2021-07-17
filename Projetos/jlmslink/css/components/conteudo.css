@@ -8,17 +8,24 @@
 .conteudo .links .item {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 1px solid rgba(207, 201, 201, 0.267);
-    padding: 5px;
+    border-radius:10px ;
+    padding: 10px 5px;
     width: 450px;
-    margin-bottom: 10px;
+    margin: 20px 5px;
     text-decoration: none;
     color: #fff;
     transition: 400ms;
     font-size: 24px;
 }
 
+.conteudo .links .item::before {
+    content: "";
+}
+
 .conteudo .links .item:hover {
-    background-color: #c4bfc4;
+    background-color: #64626277;
+    transform: scale(0.9);
+    transform: translateX(50px);
 }

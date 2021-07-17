@@ -6,28 +6,33 @@
     
     .conteudo .links .item {
         border: 1px solid rgba(207, 201, 201, 0.267);
-        padding: 3px;
         width: 300px;
         margin-bottom: 10px;
         font-size: 20px;
+        padding: 5px 20px;
     }
 
     footer {
         display: none;
+    }
+
+    .container {
+        width: 100vw;
+        height: 95vh;
     }
  }
 
  @media (min-width: 768px) and (max-width: 991.98px) {
 
     body {
-        background-image: linear-gradient(to right,#546A76, #201f20);
+        background-image: linear-gradient(to right,#546A76, #413f42);
     }
 
     .conteudo .links .item {
-        padding: 3px;
-        width: 400px;
+        width: 450px;
         margin-bottom: 10px;
         font-size: 20px;
+        padding: 5px 20px;
     }
 
     .container {
@@ -43,9 +48,9 @@
     }    
 
     .conteudo .links .item {
-        padding: 5px;
-        width: 500px;
-        margin-bottom: 20px;   
+        width: 400px;
+        margin-bottom: 20px;
+        padding: 5px 20px; 
   }
 
   .container {
@@ -57,10 +62,10 @@
 
    @media (min-width: 1200px) { 
     .conteudo .links .item {
-        padding: 10px;
-        width: 600px;
+        width: 450px;
         margin-bottom: 10px;
         font-size: 30px; 
+        padding: 5px 20px;
   }
 
   .container {
