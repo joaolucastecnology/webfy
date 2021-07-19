@@ -1,0 +1,80 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #cecece;
+}
+
+
+.container-conteudo {
+  max-width: 1280px;
+  margin: 10px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #bfc0c0;
+  border-radius: 7px;
+  transition: 400ms;
+}
+
+.container-conteudo .conteudo-card {
+  border: 3px solid #bfc0c0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px rgb(124, 119, 119);
+  transition: 400ms;
+  background-color: #2d3142;
+  padding: 5px;
+}
+
+.container-conteudo .conteudo-card:hover {
+  transform: translateY(-15px);
+}
+
+.container-conteudo .conteudo-card p {
+  width: 300px;
+  padding: 5px 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container-conteudo .conteudo-card figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container-conteudo .conteudo-card .logo {
+  width: 280px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.container-conteudo .titulo-tec {
+  border-top: 1px solid #fff;
+  color: #fff;
+  padding: 3px 5px;
+  font-weight: 600;
+}
+
+.container-conteudo .conteudo-card .etiqueta {
+  max-width: 300px;
+  display: flex;
+  margin: 0 3px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container-conteudo .conteudo-card .etiqueta .item {
+  padding: 3px;
+  margin: 2px 3px;
+  background-color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+

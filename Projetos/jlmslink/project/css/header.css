@@ -1,0 +1,25 @@
+.container-cabecalho {
+  width: 100%; 
+  background-color: #4f5d75;
+  padding: 10px;
+}
+.container-cabecalho .conteudo {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-cabecalho .conteudo p {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  user-select: none;
+}
+
+.conteudo .logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  opacity: 0.7;
+}

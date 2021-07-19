@@ -19,3 +19,7 @@ function msgDia() {
         msg.innerHTML += ` Olá, Boa Noite `;
     }
 }
+
+function construct() {
+    alert('Em breve disponivel')
+}

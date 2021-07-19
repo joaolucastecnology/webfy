@@ -1,0 +1,78 @@
+#home {
+    background: #ffc107;
+    color: #fff;
+}
+
+
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.caixa2 {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.espaco-baixo {
+    margin-bottom: 80px;
+}
+
+.espaco-topo {
+    margin-top: 50px ;
+}
+
+footer p a {
+    margin: 5px 5px;
+}
+
+
+/*
+Responsividade Conteudo
+
+*/
+
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) {
+    #home h1 {
+        font-size: 2.6em;
+    }
+
+    .mobile {
+        text-align: center;
+    }
+
+    .responsive-menu {
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .responsive-btn a {
+        font-size: 0.9em;
+    }
+
+    #precos h2 {
+        font-size: 2.5em;
+    }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+ }
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+
+}

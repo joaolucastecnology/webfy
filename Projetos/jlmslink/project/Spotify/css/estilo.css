@@ -1,0 +1,274 @@
+/*
+* 
+* @author João Lucas Melo
+*/
+
+body {
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+html, body, #home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0;
+    background: rgba(0,0,0,0.6);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    transition: background 0.4s, color 0.4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+    background: rgba(255,255,255,0.5);
+    border-radius: 10px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+    outline: none;
+}
+
+.divisor {
+    width: 1px;
+    background: #fff;
+    margin: 15px 12px;
+}
+
+.capa {
+    text-align: center;
+}
+
+.btn-custom {
+    color: #fff;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo {
+    background: #7c25f8 ;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+    color: #fff;
+}
+
+.btn-branco {
+    border: 2px solid #fff;
+}
+.btn-branco:hover {
+    background: #fff;
+    color: #000;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
+
+
+/*
+Estrutura de Conteudos
+*/
+
+#servicos {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos h2, h3 {
+    color:#7c25f8 ;
+}
+
+#recursos h2 {
+    color: #fff;
+}
+
+#recursos h3 {
+    color:#9bf0e1 ;
+}
+
+#recursos h2 {
+    color: #fff;
+}
+
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.rotacionar {
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+/*
+Rodapé
+*/
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+.credito a {
+    color: #fff;
+    font-size: 0.8em;
+    text-decoration: none;
+    opacity: 0.1;
+
+}
+
+
+
+
+
+
+
+
+/*
+Tipografia
+*/
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+
+/*
+Reponsividade dos elementos
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .btn-custom {
+        margin: 10px 15px;
+        color: #fff;
+        border-radius: 500px;
+        -webkit-border-radius:500px;
+        -moz-border-radius:500px;
+        text-transform: uppercase;
+        transition: background 0.4s, color 0.4s;
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+
+    .img-sp img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+        color: #fff;
+        border-radius: 500px;
+        -webkit-border-radius:500px;
+        -moz-border-radius:500px;
+        text-transform: uppercase;
+        transition: background 0.4s, color 0.4s;
+        padding: 5px 10px;
+        font-size: 1.2em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1 {
+        font-size: 4em;
+    }
+
+    .btn-custom {
+        margin: 10px 15px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1 {
+        font-size: 5em;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1 {
+        font-size: 6em;
+    }
+ }
